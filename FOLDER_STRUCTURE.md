@@ -66,8 +66,7 @@ diving_project/
 **`dives/[trip]/dive-[#]-[site].md` (detailed reflections):**
 - Full PADI log data (if not in summary)
 - Your complete reflections/voice notes
-- My contextual Q&A questions
-- Your Q&A responses
+- Q&A summary (written after a Q&A conversation on that dive—use the dive-qa skill)
 - Self-ratings (buoyancy, trim, navigation, etc.)
 - Detailed notes on challenges, breakthroughs, learning moments
 - Links to media (photos/videos) if applicable
@@ -78,12 +77,9 @@ diving_project/
 
 1. You share dive data (screenshots OR read from PADI app OR voice notes)
 2. I extract key data → add to `divinglog.md` summary table
-3. I create/update `dives/[trip]/dive-[#]-[site].md` with:
-   - Full dive details
-   - Your reflections
-   - My contextual Q&A questions
-   - Your responses
-4. Summary table stays clean; all detail preserved in individual files
+3. I create/update `dives/[trip]/dive-[#]-[site].md` with full dive details and your reflections.
+4. For deeper discussion on one dive, use the **dive-qa skill**: we Q&A in chat, then I write a Q&A summary into that dive's file.
+5. Summary table stays clean; all detail preserved in individual files.
 
 ---
 

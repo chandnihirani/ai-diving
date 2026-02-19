@@ -31,9 +31,9 @@
 
 ---
 
-## Q&A / detailed notes
+## Q&A summary
 
-*(Contextual Q&A and detailed notes go here.)*
+*(Summary of Q&A conversation about this dive goes here. Use the dive-qa skill to have a conversation, then this section is updated with the summary.)*
 
 ---
 

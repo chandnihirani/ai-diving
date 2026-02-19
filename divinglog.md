@@ -2,7 +2,7 @@
 
 This file contains **only the high-level summary table** – one row per dive with key quantitative data.
 
-**Detailed reflections, Q&A, and qualitative insights** are stored in individual files in the `dives/` folder.  
+**Detailed reflections and Q&A summary** are stored in individual files in the `dives/` folder.  
 See `FOLDER_STRUCTURE.md` for the complete folder structure and workflow.
 
 ### 1. File structure & workflow
@@ -14,13 +14,13 @@ See `FOLDER_STRUCTURE.md` for the complete folder structure and workflow.
 
 **Detailed reflections:**
 - Stored in individual files: `dives/[trip-location]/dive-[#]-[site].md`
-- Contains: full reflections, contextual Q&A, detailed notes
+- Contains: full reflections, Q&A summary (written after a Q&A on that dive)
 - See `FOLDER_STRUCTURE.md` for complete structure
 
 **How to share dive data:**
 - **PADI app screenshots OR read me the info from your PADI app** (or send voice notes)
 - I'll extract key data → add to summary table here
-- I'll create detailed reflection file → store full Q&A there
+- I'll create detailed reflection file; Q&A summary is added when you do a Q&A on that dive (dive-qa skill)
 
 ---
 
@@ -94,7 +94,7 @@ As we add more dives (Kenya, Sicily, Malta), we'll extend this table with new ro
    - Buddy and dive centre names
 
 3. **How detailed reflections work:**
-   - Your full reflections + my contextual Q&A + your responses go into **individual dive files** in `dives/[trip-location]/`
+   - Your full reflections go into **individual dive files** in `dives/[trip-location]/`; a **Q&A summary** is written there after you do a Q&A on that dive (use the dive-qa skill)
    - I'll pull only the **key summary info** from those detailed files into this main table
    - This keeps the summary table clean while preserving all the rich qualitative data
    - See `FOLDER_STRUCTURE.md` for the complete folder structure
@@ -108,49 +108,27 @@ As we add more dives (Kenya, Sicily, Malta), we'll extend this table with new ro
 
 ---
 
-### 5. Interactive Q&A workflow (to capture deeper insights)
+### 5. Q&A on a specific dive (deeper insights)
 
 **How it works:**
 
-After you upload dive data (PADI screenshots + any reflections), I will:
+When you want to go deeper on **one dive**, use the **dive-qa skill** (e.g. "Let's do Q&A on dive 3" or "Q&A on Mawan"):
 
-1. **Extract the data** and add it to the table (as usual)
-2. **Read and analyze your actual reflections/feedback** – I'll pay close attention to:
-   - What you specifically mentioned (skills, challenges, feelings, wildlife, conditions, etc.)
-   - What stands out or seems important to you
-   - What you didn't mention but might be relevant (based on dive type, conditions, etc.)
-3. **Ask you 3–5 contextual follow-up questions** that are **directly driven by what you said**, not generic templates
+1. You indicate which dive (by number, site name, or trip).
+2. I read that dive's file (dive data + your reflections) and we have a **back-and-forth Q&A in chat**.
+3. Questions are based on what you wrote—challenges, highlights, wildlife, skills, conditions.
+4. When you're done, I write a **Q&A summary** (not the full transcript) into that dive file under "Q&A summary".
 
-**How the questions will be tailored:**
+**Where it goes:**
 
-- **If you mention buoyancy issues** → I'll ask specific questions about buoyancy control, weighting, trim
-- **If you mention feeling cold** → I'll ask about exposure protection, water temp, how you handled it
-- **If you mention specific animals** → I'll ask about the encounter, how you felt, what you learned
-- **If you mention a challenge** → I'll dig deeper into that specific challenge
-- **If you mention something positive** → I'll ask what made it work so you can replicate it
-- **If you mention skills you practiced** → I'll ask how they went, what was hard, what clicked
-
-**Every question will be contextual** – based on YOUR specific dive, YOUR specific reflections, YOUR specific experience. No generic one-size-fits-all questions.
-
-**Your options:**
-
-- **Full Q&A mode**: Answer all my questions → richer data for analysis
-- **Quick mode**: Just say "skip questions" → I'll just add the data to the table
-- **Partial mode**: Answer some questions, skip others → up to you
-
-**Where your answers go:**
-
-- **Summary info** → added to the **"Wildlife / key notes"** column in this table (brief)
-- **Full Q&A + detailed responses** → stored in `dives/[trip-location]/dive-[#]-[site].md` (complete)
-- This keeps the summary table clean while preserving all rich qualitative data for analysis
+- The **conversation** stays in chat.
+- A **short summary** of what we discussed (themes, insights, takeaways) is written to `dives/[trip]/dive-[#]-[site].md` in the "Q&A summary" section.
 
 **Why this matters:**
 
-- PADI logs give us **what** happened (depth, time, conditions)
-- Your reflections give us **what you noticed** (wildlife, highlights, challenges, feelings)
-- **Contextual Q&A** digs deeper into the specific things YOU mentioned → this is the gold for understanding your actual progression, challenges, and what to focus on next
-
-**The key:** I'm not asking generic questions. I'm reading what you wrote, identifying what matters to you, and asking targeted follow-ups that help us understand YOUR specific experience and progression.
+- PADI logs give us **what** happened (depth, time, conditions).
+- Your reflections give us **what you noticed**.
+- **Q&A in chat** digs deeper; the **summary in the file** keeps the dive document useful without storing the full transcript.
 
 ---
 
@@ -191,11 +169,10 @@ After you upload dive data (PADI screenshots + any reflections), I will:
 **During Kenya:**
 - After each dive day, share your dive data (screenshots/voice/text from PADI app)
 - I'll add them to the table and create detailed reflection files
-- **Then I'll ask you contextual follow-up questions** based on what you shared
-- Answer what you can – this qualitative data is what makes the analysis powerful later
+- For deeper reflection on a dive, use the **dive-qa skill** (e.g. "Q&A on dive 5") – we chat in thread, then I add a Q&A summary to that dive's file
 
 **After Kenya:**
 - I'll generate your first **"Current Profile + Next Steps"** analysis
 - We'll use that to plan what to focus on in Sicily (May)
 
-**Questions?** Just ask – but for now, the workflow is: dive → share data (screenshots/voice/text) → I add to table → **I ask you contextual follow-up questions** → you answer → richer data stored in detailed files. See section 5 above for details on the interactive Q&A workflow.
+**Questions?** Just ask. To do Q&A on a specific dive, say which dive and we'll chat; when we're done, I'll add a Q&A summary to that dive's file. See section 5 above.
