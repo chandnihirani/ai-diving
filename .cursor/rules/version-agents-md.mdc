@@ -1,0 +1,15 @@
+---
+description: After editing AGENTS.md, commit it for versioning so the agent can revert.
+globs: AGENTS.md
+alwaysApply: false
+---
+
+# Version AGENTS.md after edits
+
+Whenever you modify **AGENTS.md**, run this right after saving:
+
+```bash
+bash scripts/commit-agents-md.sh
+```
+
+Run it from the project root. The script only creates a commit if AGENTS.md actually changed. This keeps a local version history so the agent (or user) can revert if needed.
