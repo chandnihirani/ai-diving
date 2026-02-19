@@ -17,3 +17,9 @@ The skill defines where every piece of information goes: summary table vs detail
 - **`dives/`** – One folder per trip (`[country]-[location]`), one file per dive (`dive-[#]-[site-name].md`). All reflections, Q&A, and detailed notes go here.
 
 For exact naming, workflow, and what goes where, follow the **dive-categorization** skill.
+
+## Versioning this file (AGENTS.md)
+
+- **After any edit to this file**, run from the project root: `bash scripts/commit-agents-md.sh`
+- This creates a Git snapshot so changes can be reverted. Do it automatically; the user does nothing.
+- To revert AGENTS.md to a previous version, use `git checkout` or `git restore` with the desired commit.
