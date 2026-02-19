@@ -1,0 +1,95 @@
+## Project folder structure
+
+### Overview
+
+- **`divinglog.md`** = High-level summary table only (one row per dive)
+- **`dives/`** = Detailed reflection files (one file per dive)
+
+---
+
+### Proposed structure
+
+```
+diving_project/
+├── divinglog.md                    # Main summary table (high-level only)
+├── ideas.md                        # Planning notes
+├── FOLDER_STRUCTURE.md             # This file
+│
+└── dives/                          # Detailed dive reflections
+    ├── indonesia-komodo/           # Trip: Indonesia, Komodo (Mar 2024)
+    │   ├── dive-1-sebayur.md
+    │   ├── dive-2-siaba-besar.md
+    │   ├── dive-3-mawan.md
+    │   └── dive-4-sudamala.md
+    │
+    ├── turkey-dalaman/             # Trip: Turkey, Dalaman (Oct 2024)
+    │   ├── dive-5-dalaman-1.md
+    │   └── dive-6-baba-island.md
+    │
+    ├── antigua/                    # Trip: Antigua (May 2025)
+    │   ├── dive-7-pillars-of-hercules.md
+    │   ├── dive-8-blacks-point.md
+    │   └── dive-9-nanton-point.md
+    │
+    ├── kenya-diani/                # Trip: Kenya, Diani (Mar 2025) - upcoming
+    │   ├── dive-10-[site-name].md
+    │   ├── dive-11-[site-name].md
+    │   └── ...
+    │
+    ├── sicily-taormina/            # Trip: Sicily, Taormina (May 2025) - upcoming
+    │   ├── dive-[#]-[site-name].md
+    │   └── ...
+    │
+    └── malta-bugibba/              # Trip: Malta, Bugibba (Jul 2025) - upcoming
+        ├── dive-[#]-[site-name].md
+        └── ...
+```
+
+---
+
+### Naming convention
+
+**Folder names:** `[country]-[location]` (e.g., `kenya-diani`, `sicily-taormina`)
+
+**File names:** `dive-[number]-[site-name].md` (e.g., `dive-10-mombasa-reef.md`)
+
+---
+
+### What goes where
+
+**`divinglog.md` (summary table):**
+- One row per dive
+- Key quantitative data (depth, time, conditions, gear)
+- Brief wildlife/notes summary (1–2 sentences max)
+- Links to detailed reflection files
+
+**`dives/[trip]/dive-[#]-[site].md` (detailed reflections):**
+- Full PADI log data (if not in summary)
+- Your complete reflections/voice notes
+- My contextual Q&A questions
+- Your Q&A responses
+- Self-ratings (buoyancy, trim, navigation, etc.)
+- Detailed notes on challenges, breakthroughs, learning moments
+- Links to media (photos/videos) if applicable
+
+---
+
+### Workflow
+
+1. You share dive data (screenshots OR read from PADI app OR voice notes)
+2. I extract key data → add to `divinglog.md` summary table
+3. I create/update `dives/[trip]/dive-[#]-[site].md` with:
+   - Full dive details
+   - Your reflections
+   - My contextual Q&A questions
+   - Your responses
+4. Summary table stays clean; all detail preserved in individual files
+
+---
+
+### Benefits
+
+- **Summary table** = Quick overview, easy to scan
+- **Detailed files** = Rich qualitative data for analysis
+- **Organized by trip** = Easy to find and review
+- **Scalable** = Can add as many dives as needed without cluttering the summary

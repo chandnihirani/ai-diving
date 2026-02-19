@@ -1,0 +1,42 @@
+# Dive 8 – Black's Point
+
+**Trip:** Antigua · **Date:** 07 May 2025
+
+---
+
+## Dive data
+
+| Field | Value |
+|-------|--------|
+| Type | Recreational |
+| Max depth | 20 m |
+| Bottom time | 39 min |
+| Water type | Salt · Ocean |
+| Weather | Sunny · Bottom 28°C |
+| Viz | Average |
+| Current / Surge / Waves | — / — / None |
+| Suit | Shorty |
+| Weight | 5 kg · Good |
+| Cylinder | Aluminium · Air |
+| Dive centre | Soul Immersion |
+| Buddy | Neville |
+
+**Wildlife / key notes:** Stingrays, moray eels, pufferfish; swam through tunnel of rocks like mini cave; got zapped by fire coral on leg (ouch!); loads of variety of fish and coral; feeling amazing.
+
+---
+
+## Reflections
+
+*(Add your reflections, highlights, and how the dive felt.)*
+
+---
+
+## Q&A / detailed notes
+
+*(Contextual Q&A and detailed notes go here.)*
+
+---
+
+## Media
+
+*(Links to photos or videos if you have them.)*

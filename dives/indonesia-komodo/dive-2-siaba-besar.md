@@ -1,0 +1,42 @@
+# Dive 2 – Siaba Besar
+
+**Trip:** Indonesia, Komodo · **Date:** 27 Mar 2024
+
+---
+
+## Dive data
+
+| Field | Value |
+|-------|--------|
+| Type | Training – OW Training Dive 2 |
+| Max depth | 12 m |
+| Bottom time | 50 min |
+| Water type | Salt · Ocean |
+| Weather | Sunny · Air 35°C · Surface 30°C · Bottom 27°C |
+| Viz | 15 m · Average |
+| Current / Surge / Waves | None / Light / None |
+| Suit | Full 3 mm + boots |
+| Weight | 6 kg · Good |
+| Cylinder | Aluminium 12 L · Air · 200→50 bar |
+| Dive centre | Aquaradive |
+| Buddy | — |
+
+**Wildlife / key notes:** 3 turtles, many fish.
+
+---
+
+## Reflections
+
+*(Add your reflections, highlights, and how the dive felt.)*
+
+---
+
+## Q&A / detailed notes
+
+*(Contextual Q&A and detailed notes go here.)*
+
+---
+
+## Media
+
+*(Links to photos or videos if you have them.)*
