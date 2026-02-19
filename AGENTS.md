@@ -18,6 +18,13 @@ The skill defines where every piece of information goes: summary table vs detail
 
 For exact naming, workflow, and what goes where, follow the **dive-categorization** skill.
 
+## Git versioning (local only)
+
+- **Commit after completing work.** Whenever you finish a task or a logical set of edits (e.g. adding a dive, updating the log, refactoring a file), commit the changes to Git. We use Git only for local versioning and revert capability—nothing is pushed to GitHub.
+- **Commit message:** Short, clear description of what changed (e.g. "Add dive 3 Siaba Besar to Indonesia–Komodo", "Update divinglog summary table", "Fix dive-categorization skill").
+- **What to commit:** Stage and commit all modified or new project files that belong to the change. Do not commit unless you have actually changed files.
+- **When:** Commit once per completed task or coherent batch of edits, not after every single tiny edit.
+
 ## Versioning this file (AGENTS.md)
 
 - **After any edit to this file**, run from the project root: `bash scripts/commit-agents-md.sh`
