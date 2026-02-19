@@ -11,10 +11,12 @@ This project is a **personal diving log**. The user adds dive data (from PADI ap
 
 The skill defines where every piece of information goes: summary table vs detailed files, folder names, and file names.
 
+- **Use the dive-qa skill** when the user wants to do Q&A on a specific dive (e.g. "Q&A on dive 3", "let's reflect on Mawan"). Conduct the Q&A in chat, then write a short **Q&A summary** into that dive's file (not the full transcript).
+
 ## Project layout (summary)
 
 - **`divinglog.md`** – One row per dive; quantitative data and brief notes only.
-- **`dives/`** – One folder per trip (`[country]-[location]`), one file per dive (`dive-[#]-[site-name].md`). All reflections, Q&A, and detailed notes go here.
+- **`dives/`** – One folder per trip (`[country]-[location]`), one file per dive (`dive-[#]-[site-name].md`). Reflections and Q&A summary (written after a Q&A conversation) go here.
 
 For exact naming, workflow, and what goes where, follow the **dive-categorization** skill.
 
