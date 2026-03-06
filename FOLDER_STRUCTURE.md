@@ -29,7 +29,11 @@ diving_project/
     ├── antigua/                    # Trip: Antigua (May 2025)
     │   ├── dive-7-pillars-of-hercules.md
     │   ├── dive-8-blacks-point.md
-    │   └── dive-9-nanton-point.md
+    │   ├── dive-9-nanton-point.md
+    │   └── photos/                 # Photos per dive (from ingest script)
+    │       ├── dive-7-pillars-of-hercules/
+    │       ├── dive-8-blacks-point/
+    │       └── dive-9-nanton-point/
     │
     ├── kenya-diani/                # Trip: Kenya, Diani (Mar 2025) - upcoming
     │   ├── dive-10-[site-name].md
@@ -70,6 +74,10 @@ diving_project/
 - Self-ratings (buoyancy, trim, navigation, etc.)
 - Detailed notes on challenges, breakthroughs, learning moments
 - Links to media (photos/videos) if applicable
+
+**`dives/[trip]/photos/dive-[#]-[site]/` (per-dive photo folders):**
+- Created by the **dive-photo-ingest** skill/script when you ingest camera photos (e.g. DJI Osmo Action).
+- One folder per dive; photos are assigned by date and time windows (see that skill). The dive’s `## Media` section links to these folders.
 
 ---
 
