@@ -13,6 +13,8 @@ The skill defines where every piece of information goes: summary table vs detail
 
 - **Use the dive-qa skill** when the user wants to do Q&A on a specific dive (e.g. "Q&A on dive 3", "let's reflect on Mawan"). Conduct the Q&A in chat, then write a short **Q&A summary** into that dive's file (not the full transcript).
 
+- **Use the dive-photo-ingest skill** when the user wants to ingest dive photos (e.g. from DJI Osmo Action), store them in per-dive folders, and tag them to dives by timestamp. Run the ingestion script, then update the **Media** section in affected dive files.
+
 ## Project layout (summary)
 
 - **`divinglog.md`** – One row per dive; quantitative data and brief notes only.
