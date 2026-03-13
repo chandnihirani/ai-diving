@@ -35,7 +35,7 @@ diving_project/
     │       ├── dive-8-blacks-point/
     │       └── dive-9-nanton-point/
     │
-    ├── kenya-diani/                # Trip: Kenya, Diani (Mar 2025) - upcoming
+    ├── kenya-diani/                # Trip: Kenya, Diani (Mar 2026)
     │   ├── dive-10-[site-name].md
     │   ├── dive-11-[site-name].md
     │   └── ...
@@ -70,7 +70,7 @@ diving_project/
 **`dives/[trip]/dive-[#]-[site].md` (detailed reflections):**
 - Full PADI log data (if not in summary)
 - Your complete reflections/voice notes
-- Q&A summary (written after a Q&A conversation on that dive—use the dive-qa skill)
+- Q&A summary (written after a Q&A conversation on that dive—use the dive-qa skill). Can include a **Raja Ampat readiness** block (SMB, drift, buoyancy, reef hook, negative entry) so the raja-ampat-readiness skill can assess progress from this log.
 - Self-ratings (buoyancy, trim, navigation, etc.)
 - Detailed notes on challenges, breakthroughs, learning moments
 - Links to media (photos/videos) if applicable
