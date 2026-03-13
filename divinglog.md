@@ -40,6 +40,7 @@ Your editor/preview should wrap long cell text, and you can scroll horizontally 
 | 7 | 07 May 2025 | Antigua   | Antigua | Pillars of Hercules | Recreational                  | 18            | 44                 | Salt      | Ocean         | Sunny   |               |                   | 28               |         | Average    | Light    |       | None  | Shorty            | 5          | Good       | Aluminium         | 18                 | Air |             |          | Soul Immersion | Neville | Stingrays, coral nursery, limestone rocks, variety of colored corals, gorgeous variety of fish in size and color; feeling amazing | [→](dives/antigua/dive-7-pillars-of-hercules.md) |
 | 8 | 07 May 2025 | Antigua   | Antigua | Black's Point  | Recreational                  | 20            | 39                 | Salt      | Ocean         | Sunny   |               |                   | 28               |         | Average    |          |       | None  | Shorty            | 5          | Good       | Aluminium         |                    | Air |             |          | Soul Immersion | Neville | Stingrays, moray eels, pufferfish; swam through tunnel of rocks like mini cave; got zapped by fire coral on leg (ouch!); loads of variety of fish and coral; feeling amazing | [→](dives/antigua/dive-8-blacks-point.md) |
 | 9 | 08 May 2025 | Antigua   | Antigua | Nanton Point   | Recreational                  | 21            | 43                 | Salt      | Ocean         | Sunny   |               |                   | 26               |         | Average    |          |       | Small | Shorty            | 6          | Good       | Aluminium         |                    | Air |             |          | Soul Immersion | Neville | 3 blacktip sharks; lots of groupers and snappers; giant lobster; giant crab; loads of coral; started with 5kg but needed to add 1kg before ascent; feeling amazing | [→](dives/antigua/dive-9-nanton-point.md) |
+| 10 | 13 Mar 2025 | Kenya     | Coast   | Igloo Reef     | Training – AOW Adventure Dive (Navigation) | 18 | 40 | Salt | Ocean | Sunny | | | | | High | | | Small | Shorty | 6 | Good | Aluminium | | Air | | | | | First descent with rope; 6 kg perfect, no buoyancy issues; loads of coral, variety of fish; confident, enjoyed compass. | [→](dives/kenya-coast/dive-10-igloo-reef.md) |
 
 As we add more dives (Kenya, Sicily, Malta), we'll extend this table with new rows.
 
@@ -117,12 +118,12 @@ When you want to go deeper on **one dive**, use the **dive-qa skill** (e.g. "Let
 1. You indicate which dive (by number, site name, or trip).
 2. I read that dive's file (dive data + your reflections) and we have a **back-and-forth Q&A in chat**.
 3. Questions are based on what you wrote—challenges, highlights, wildlife, skills, conditions.
-4. When you're done, I write a **Q&A summary** (not the full transcript) into that dive file under "Q&A summary".
+4. When you're done, I write a **Q&A summary** (not the full transcript) into that dive file under "Q&A summary". When relevant, the summary can include a short **Raja Ampat readiness** block (SMB, drift, buoyancy, reef hook, negative entry) so "how close am I to Raja Ampat?" can be answered from this log.
 
 **Where it goes:**
 
 - The **conversation** stays in chat.
-- A **short summary** of what we discussed (themes, insights, takeaways) is written to `dives/[trip]/dive-[#]-[site].md` in the "Q&A summary" section.
+- A **short summary** of what we discussed (themes, insights, takeaways) is written to `dives/[trip]/dive-[#]-[site].md` in the "Q&A summary" section. Optionally we add a **Raja Ampat readiness** block (SMB deployed? Drift 1–5? Buoyancy 1–5? Reef hook? Negative entry?) so your main log feeds into "how close am I to Raja Ampat?" without a separate log.
 
 **Why this matters:**
 
