@@ -69,11 +69,13 @@ After a Q&A session, replace the placeholder (or previous summary) with your wri
 ## Coordination with dive-categorization
 
 - **Adding/logging dives** (new data, PADI, voice notes) → use **dive-categorization**.
+- **Immediately after finishing a new or updated dive via dive-categorization**, automatically start **dive-qa** for that specific dive *unless the user has explicitly said they don’t want Q&A right now* (e.g. “just log this, no Q&A”).
 - **Q&A on an existing dive** (conversation + summary in file) → use **dive-qa**.
 
 Both can touch the same dive file: categorization for structure and data; dive-qa for the Q&A summary section only.
 
 ## When to do Q&A (and when Raja Ampat comes in)
 
-- Q&A is **not required after every dive**. Do it when the user wants to reflect on a specific dive (e.g. “Q&A on dive 3”, “let’s talk about Nanton Point”).
+- Q&A is **normally not required after every dive** when considered in isolation, but when a dive has just been logged or updated and the user hasn’t opted out, treat that as a signal to *go ahead and run Q&A now*.
+- The user can always say they want to skip or stop Q&A (e.g. “no Q&A for this one”, “let’s pause here”)—in that case, don’t start or continue Q&A.
 - Raja Ampat criteria don’t need to be asked every time. Be selective: ask when the dive is relevant (current, open water, drift, etc.) or when the conversation naturally goes there. If the user does Q&A on a calm, shallow dive with no SMB or current, you may cover little or no Raja Ampat—that’s fine. Readiness can still be assessed from other dives’ Q&A summaries and reflections.
