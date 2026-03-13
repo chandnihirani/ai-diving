@@ -1,0 +1,2 @@
+# Default folder for dive photos (used when you say "new photos, run ingest" without a path).
+/Users/user/Library/CloudStorage/GoogleDrive-hiranichandni90@gmail.com/My Drive/DJI Diving Photos

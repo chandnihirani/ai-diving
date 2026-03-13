@@ -32,11 +32,32 @@
   - Adds **5–6 dives** → total ~14–15 dives.  
 
 - **16–19 May 2025 – Mainland Sicily (coast)**  
-  - Base yourself on the **eastern or north‑eastern coast** (still mainland Sicily), while the rest of the week you’re inland/central.  
-  - Plan for **4–5 dives** over 2–3 days (e.g. 2× two‑tank days + optional 5th dive).  
+  - **Your base: Syracuse / Ortigia** (south‑eastern Sicily).  
+  - Plan for **one day of diving** from Syracuse (typically 2 dives, one morning or half‑day), or more if you add a day trip north.  
   - Typical mid‑May sea temperature: **~18–19°C** → comfortable with **5–7 mm rental wetsuit + hood** (widely available at local dive centers).  
-  - Good AOW‑friendly areas and example dive sites:  
-    - **Taormina / Giardini Naxos area (east coast)**  
+
+  - **Syracuse / Ortigia – one day of diving (local)**  
+    - **Where is Plemmirio?** The **Plemmirio Marine Reserve** is on the **Maddalena Peninsula**, a few kilometres **south of Syracuse** (Ortigia). It’s the same coast: the peninsula sticks out south from the city, with ~14 km of coastline and protected sea. Dive centres are in Siracusa / Santa Panagia; they take you by boat to the reserve (short ride). No need to change accommodation.  
+    - **What the dive sites look like:**  
+      - **Green vs red route (what it means):** At these sites the centre often offers two **routes** through the same dive – same place, different depth/length. **Green route** = shallower, shorter profile (max ~20 m); **red route** = deeper, more of the site (max ~26–28 m). You’re not choosing a different site – you’re choosing how deep/long you go. After AOW, the red route is a good way to use your deep training.  
+      - **The Arches (Gli Archi)** – Wall dive, all levels. You drop to ~12 m onto a white rocky plateau with seaweed, then move into a circular hollow with **two large natural arches**. Under the smaller arch: crevices with cardinalfish; at ~17 m a big rock with groupers and brown meagre. A **steep canal** drops to ~28 m with cracked walls full of life; at ~18 m there’s a **bronze mermaid statue** (tribute to free diver Rossana Maiorca). Under the main arch, light through holes in the roof; walls covered in **colourful sponges and yellow anemones**; on the sand, flying gurnards and stingrays; shoals of bream. Depths: green route ~20 m, red route ~26 m. Viz usually good/excellent.
+      - **The Cheese Cave (Grotte del Formaggio)** – Wall/cavern dive, all levels. **Large underwater caverns**, no confusing forks, solid rock. A **tunnel** from ~9–10 m down to ~18–19 m, walls covered in **sponges, bryozoa, yellow cluster anemones**; slipper lobster and bream. One cave has a **big opening (~20 m wide)** with a hole in the roof so **sunlight beams in** (classic “cathedral light” effect). The namesake cave has **two entrances at 90°** (L‑shape), so **blue light from two directions** and walls lined with white sponges; brown meagre around a big rock at ~10–12 m. Depths: green route ~20 m, red route ~28 m. Can get **medium** difficulty if there’s current.
+      - **General:** Protected since 2004; clear water, reefs, walls, cracks and canyons; typical Med life (groupers, breams, amberjack, barracuda, morays, sponges, anemones). Some areas have archaeological interest (ancient and WWII); one spot has old motorbike/car wrecks (“le moto”).  
+    - **Dive centres to contact (Siracusa area):**  
+      - [Capo Murro Diving Center](https://www.capomurrodivingcenter.it/en/) – PADI resort in Plemmirio; guided dives, courses; sites include **The Arches** (rock formations, marine life, bronze mermaid memorial), plus other Plemmirio sites.  
+      - [Anemone Diving Center](https://divingaway.com/en/dive-center-2565/anemone-diving-center) – Viale Santa Panagia, Siracusa; Plemmirio by boat; sites e.g. **Grotte del Formaggio**, **Grotta del Capo**, **Giant's Tongue**; caves, groupers, barracudas, breams; fun dives from ~€35.  
+      - [Ortigia Diving](https://www.ortigiadiving.com/) – **Right in Ortigia** (Riva della Posta 5); immersioni al Plemmirio; guided dives, courses, equipment rental, boat to sites; very convenient if you’re staying on the island.  
+      - *Note:* “ASD” in Italy often means *Associazione Sportiva Dilettantistica* (club legal name). In Syracuse, “ASD Diving” in search results may refer to **Anemone** (A.S.D. Anemone Diving Center) or another club – same Plemmirio area; if you have a specific link, we can double‑check.  
+    - **When emailing:** ask for a **two‑tank morning** (or half‑day), mention **AOW** (post‑Kenya) and that you’d like **reef + cavern/grotto** if conditions allow.  
+    - **Gear:** request **5–7 mm full wetsuit + hood** for May.  
+
+    - **Why Plemmirio is a good fit after AOW (vs Kenya)**  
+      - **Different environment:** Kenya = tropical Indian Ocean reef, warm water. Plemmirio = **temperate Mediterranean**: rocky walls, natural arches, **caverns with overhead** (no confusing maze, but proper “inside” feeling and light effects), **cooler water** (~18–19°C) and **5–7 mm wetsuit + hood** – so new buoyancy/trim and thermal experience. Fits your goal to try “caverns, cooler water”.  
+      - **Different wildlife:** No tropical corals or East African reef fish. Here you get **Mediterranean** life: groupers, breams, brown meagre, morays, sponges and anemones (colour on the walls), cardinalfish in cracks, slipper lobster, flying gurnards, stingrays, shoals of bream; sometimes amberjack/barracuda. Different colours and behaviours to observe.  
+      - **Gentle skill stretch (not extreme):** Sites are “all levels” and “low difficulty” (medium when current). Good **first post‑AOW** step: (1) **Cavern** – if you’ve done any short tunnel or rock pass‑through before (e.g. your log notes “tunnel of rocks like mini cave” at Black’s Point in Antigua – only if that rings a bell), Cheese Cave is a step up (larger caverns, cathedral light, no maze); if not, it’s simply your first proper cavern. (2) **Depth** – red routes to ~26–28 m; you’ll have done deep in Kenya, so this **consolidates** 20–30 m. (3) **Cooler water + wetsuit** – new for you; good time to get used to 5–7 mm before Malta. (4) **Current** – possible; if it’s on, it’s a mild introduction. To lean into the challenge, ask the centre for the **deeper (red) routes** and say you’re AOW and comfortable to 28 m.  
+
+  - **Optional day trip north (Taormina / Catania area)** – only if you want a second day of diving or different sites:  
+    - **Taormina / Giardini Naxos area (east coast)** – ~1.5–2 h drive from Syracuse.  
       - `Grotta Azzurra (Blue Grotto)`: cavern-style dive with beautiful light.  
       - `Isola Bella marine reserve`: walls with sponges, typical Med life (groupers, morays, octopus).  
       - `Capo Taormina / Roman columns`: easy archaeology-style dive with ancient ruins.  

@@ -146,7 +146,7 @@ def main():
     parser = argparse.ArgumentParser(description="Ingest dive photos into per-dive folders by date and time windows.")
     parser.add_argument("source", type=Path, help="Folder containing photos to ingest")
     parser.add_argument("--dry-run", action="store_true", help="Only print assignments, do not copy")
-    parser.add_argument("--gap-minutes", type=int, default=60, help="Gap in minutes to start next dive window (default 60)")
+    parser.add_argument("--gap-minutes", type=int, default=45, help="Gap in minutes to start next dive window (default 45)")
     parser.add_argument("--project-root", type=Path, default=None, help="Project root (default: parent of scripts/)")
     args = parser.parse_args()
 
