@@ -20,7 +20,7 @@
 | Suit | Shorty |
 | Weight | 6 kg · Good |
 | Cylinder | Aluminium · Air |
-| Dive centre | Deani Marine Divers |
+| Dive centre | Diani Marine Divers |
 | Buddy | Rashid |
 
 **Wildlife / key notes:** Five turtles; one fairly big octopus hiding in a rock (changed colour a couple of times—camouflage really visible, suckers very cool); one really big lionfish, beautiful and massive; huge ball of orange fish (little ones), swam through them—really fun; one colourful blue lobster; loads of coral, lots of little colourful fish.

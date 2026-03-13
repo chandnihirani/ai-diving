@@ -20,7 +20,7 @@
 | Suit | Shorty |
 | Weight | 6 kg · Good |
 | Cylinder | Aluminium · Air |
-| Dive centre | Deani Marine Divers |
+| Dive centre | Diani Marine Divers |
 | Buddy | Rashid |
 
 **Wildlife / key notes:** Loads of coral and a variety of fish.
