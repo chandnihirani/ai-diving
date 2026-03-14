@@ -98,7 +98,20 @@
         - [Buddies Dive Cove](https://buddiesmalta.com/) – [Maps](https://www.google.com/maps/search/?api=1&query=Buddies+Dive+Cove+Bugibba+Malta)  
         - [Maltaqua](https://www.maltaqua.com/) – [Maps](https://www.google.com/maps/search/?api=1&query=Maltaqua+St+Paul%27s+Bay+Malta)  
         - [DiveBase Malta](https://divebasemalta.com/) – [Maps](https://www.google.com/maps/search/?api=1&query=DiveBase+Malta+Bugibba)  
-    - **Priority: PADI Enriched Air Nitrox specialty** – Do this in Malta so you always have it. All three centres above offer the course (theory + optional 2 dives). Book with whichever centre you use for your fun dives, or compare price/format (e.g. Maltaqua: theory online + one day of dives; Buddies: theory-only or with 2 OW dives; DiveBase: ~€180 all-in).
+    - **Priority: PADI Enriched Air Nitrox specialty** – Do this in Malta so you always have it. All centres below offer the course. See **Nitrox & dive centre reference** for prices and who to go for.
+    - **Nitrox & dive centre reference** (use this when deciding who to book / when you ask for nitrox and dive centre info):
+      - **Locations:** **Bugibba / St Paul's Bay** = three centres, more choice and competition (Buddies, Maltaqua, DiveBase). **Mellieha** = closer to Cirkewwa/Gozo ferry; Seashell is the main option there. For diving + reliably well‑priced, Bugibba is the better base; for shortest travel to Cirkewwa/Gozo, Mellieha.
+      - **Centres and Nitrox:**
+        - **Buddies Dive Cove** (Bugibba) – [buddiesmalta.com](https://buddiesmalta.com/). Nitrox: eLearning €105 + course €158 (theory) or €248 (with 2 dives). 10 dives: €372 own eq / €508 with equipment.
+        - **Maltaqua** (St Paul's Bay/Qawra) – [maltaqua.com](https://www.maltaqua.com/). Nitrox: theory online + one day with 2 dives; full gas blending on site. 10 escorted shore dives: price on request (equipment €30/day); Nitrox €5/dive once certified.
+        - **DiveBase Malta** (Bugibba) – [divebasemalta.com](https://divebasemalta.com/). Nitrox: ~€90 eLearning + course (combo with dives available). 10 dives: €350 own eq / €450 with equipment.
+        - **Seashell Dive Centre** (Mellieha) – [seashelldivingmalta.com](https://www.seashelldivingmalta.com/). “Best of 3 Islands” 10 dives: €450 (6 shore + 4 boat, Malta + Gozo + Comino). Nitrox: €150 theory only / €225 with 2 dives; **after cert, nitrox is free on dives**.
+      - **10 dives + Nitrox (with equipment) – comparison:**
+        - **DiveBase:** **€610** (combo 10 dives + Nitrox: €520 rental + €90 eLearning). Confirm: are the 2 Nitrox course dives part of the 10 or extra?
+        - **Seashell:** **€675** (€450 package + €225 Nitrox with 2 dives). Nitrox free on all dives after cert. Confirm: is €450 with or without full equipment? Do the 2 course dives count toward the 10?
+        - **Buddies:** **€861** (€508 10 dives + €105 eLearning + €248 Nitrox with 2 dives). No free nitrox on fun dives.
+        - **Maltaqua:** request quote (10-dive package price not published; Nitrox €5/dive).
+      - **Summary:** Best total price for 10 dives + Nitrox: **DiveBase (€610)**. Best if you want the “3 islands” package and free nitrox after cert: **Seashell (€675)**. When you come back and ask for nitrox and dive centre information, pull this section.
 
 - **Mid–end October 2025 – Europe / Mediterranean trip**  
   - Aim for **another Med destination (not Malta)**, e.g.:  
