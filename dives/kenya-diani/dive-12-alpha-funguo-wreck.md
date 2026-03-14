@@ -9,26 +9,34 @@
 | Field | Value |
 |-------|--------|
 | Type | Training – AOW Adventure Dive (Wreck) |
-| Entry | *(add if you know)* |
-| Max depth | *(add from PADI app)* |
-| Bottom time | *(add from PADI app)* |
+| Entry | Boat |
+| Max depth | 27 m |
+| Bottom time | 31 min |
 | Water type | Salt · Ocean |
-| Weather | *(add if you remember)* |
-| Bottom temp | *(add if you have it)* |
-| Viz | *(add if you remember)* |
+| Weather | Sunny |
+| Bottom temp | 26°C |
+| Viz | High |
+| Current | None |
+| Waves | Small |
 | Suit | Shorty |
 | Weight | 6 kg · Good |
 | Cylinder | Aluminium · Air |
 | Dive centre | Diani Marine Divers |
 | Buddy | Rashid |
 
-**Wildlife / key notes:** *(Add any wildlife or wreck highlights when you have them.)*
+**Wildlife / key notes:** Schools of fish swarming everywhere; mix of really big and really little fish; wreck covered in incredible coral. Unique experience; very much looking forward to more wreck diving and possibly the Wreck Diver specialty.
 
 ---
 
 ## Reflections
 
-*(Add your reflections from the wreck dive—how it felt, what you practiced, any challenges or highlights.)*
+**Feeling:** Great.
+
+**Skill practiced:** Wreck navigation with compass. Started by using the compass on my right side and moved for about a minute. Instructor had me turn around at ~26 m; the starting point was at 19 m, so I had to get back to the same spot at the same depth. I swam slowly upwards and backwards to return to the starting point—navigation exercise completed successfully.
+
+**The wreck:** Amazing. So many schools of fish swarming around; all sorts of really big and really little fish. The wreck had incredible coral growing off it. Such an incredibly unique experience. Very much looking forward to exploring wreck diving in future; might even want to consider the Wreck Diver specialty—such an intricate way of exploring and watching the animals that live on a wreck.
+
+**Air consumption:** Reached 70 bar by within 30 minutes. Assuming it’s because we went deeper than usual (27 m). Need to focus more on breathing so I’m not over-consuming air.
 
 ---
 
