@@ -98,6 +98,7 @@
         - [Buddies Dive Cove](https://buddiesmalta.com/) – [Maps](https://www.google.com/maps/search/?api=1&query=Buddies+Dive+Cove+Bugibba+Malta)  
         - [Maltaqua](https://www.maltaqua.com/) – [Maps](https://www.google.com/maps/search/?api=1&query=Maltaqua+St+Paul%27s+Bay+Malta)  
         - [DiveBase Malta](https://divebasemalta.com/) – [Maps](https://www.google.com/maps/search/?api=1&query=DiveBase+Malta+Bugibba)  
+    - **Priority: PADI Enriched Air Nitrox specialty** – Do this in Malta so you always have it. All three centres above offer the course (theory + optional 2 dives). Book with whichever centre you use for your fun dives, or compare price/format (e.g. Maltaqua: theory online + one day of dives; Buddies: theory-only or with 2 OW dives; DiveBase: ~€180 all-in).
 
 - **Mid–end October 2025 – Europe / Mediterranean trip**  
   - Aim for **another Med destination (not Malta)**, e.g.:  
