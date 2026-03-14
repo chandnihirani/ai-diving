@@ -33,5 +33,6 @@ Route all dive-related input into the project's folder structure. Use this skill
 3. **Next dive number** from the last row in `divinglog.md` (or last file in that trip).
 4. **Add one row** to the table in `divinglog.md` (key fields + short notes + link to detail file).
 5. **Create or update** `dives/[trip]/dive-[#]-[site].md` with full details, reflections, and a "Q&A summary" section (summary is filled when the user runs a Q&A on that dive via the dive-qa skill).
+6. **Trigger Q&A:** Once the dive has been added or updated with full details (or the user has finished supplying details for that dive), **immediately start the dive-qa flow** for that dive—i.e. conduct the Q&A conversation in chat and then write the Q&A summary to the dive file. Skip this step only if the user has explicitly said they don't want Q&A (e.g. "just log this, no Q&A").
 
 Summary table stays minimal; all detail lives in the per-dive files.

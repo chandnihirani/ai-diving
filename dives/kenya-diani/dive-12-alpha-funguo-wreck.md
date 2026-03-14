@@ -42,7 +42,10 @@
 
 ## Q&A summary
 
-*(Filled after you do a Q&A on this dive.)*
+- **Return leg (wreck nav):** Straightforward. You swam back watching your dive computer, ascended slowly, and hit 19 m without feeling distracted—the task felt simple.
+- **Air consumption (70 bar by ~30 min):** You put it down to **task loading**—when focused on a skill (e.g. wreck navigation), you tend to breathe more. You’ve already noticed you do better on regular dives where you consciously focus on breathing and buoyancy.
+- **Recommendations:** On skill dives (nav, drills, etc.), remind yourself before the dive to keep an even breath rhythm so task focus doesn’t push consumption up. Keep doing what you’re doing on recreational dives: prioritise breathing and buoyancy; that habit will gradually carry over into task-heavy dives.
+- **What to look out for:** On the next wreck or task-heavy dive, compare end pressure when you deliberately “breathe like on a normal dive” vs when you’re fully in task mode—useful baseline.
 
 ---
 
