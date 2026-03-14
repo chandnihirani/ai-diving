@@ -42,6 +42,7 @@ Your editor/preview should wrap long cell text, and you can scroll horizontally 
 | 9 | 08 May 2025 | Antigua   | Antigua | Nanton Point   | Recreational                  | 21            | 43                 | Salt      | Ocean         | Sunny   |               |                   | 26               |         | Average    |          |       | Small | Shorty            | 6          | Good       | Aluminium         |                    | Air |             |          | Soul Immersion | Neville | 3 blacktip sharks; lots of groupers and snappers; giant lobster; giant crab; loads of coral; started with 5kg but needed to add 1kg before ascent; feeling amazing | [→](dives/antigua/dive-9-nanton-point.md) |
 | 10 | 13 Mar 2026 | Kenya     | Diani   | Igloo Reef     | Training – AOW Adventure Dive (Navigation) | 18 | 40 | Salt | Ocean | Sunny | | | 26 | | High | | | Small | Shorty | 6 | Good | Aluminium | | Air | | | Diani Marine Divers | Rashid | First descent with rope; 6 kg perfect, no buoyancy issues; loads of coral, variety of fish; confident, enjoyed compass. | [→](dives/kenya-diani/dive-10-igloo-reef.md) |
 | 11 | 13 Mar 2026 | Kenya     | Diani   | Shark Alley    | Training – AOW Adventure Elective (Drift)  | 17 | 48 | Salt | Ocean | Sunny | | | 26 | | High | | | Small | Shorty | 6 | Good | Aluminium | | Air | | | Diani Marine Divers | Rashid | 5 turtles; octopus (camouflage); big lionfish; ball of orange fish; blue lobster; practiced SMB; stayed at 5 m safety stop confidently. | [→](dives/kenya-diani/dive-11-shark-alley.md) |
+| 12 | 14 Mar 2026 | Kenya     | Diani   | Alpha Funguo Wreck | Training – AOW Adventure Dive (Wreck) |  |  | Salt | Ocean |  |  |  |  |  |  |  |  |  | Shorty | 6 | Good | Aluminium |  | Air |  |  | Diani Marine Divers | Rashid | AOW wreck dive. *(Add depth, time, wildlife when you have them.)* | [→](dives/kenya-diani/dive-12-alpha-funguo-wreck.md) |
 
 As we add more dives (Kenya, Sicily, Malta), we'll extend this table with new rows.
 
@@ -60,7 +61,7 @@ As we add more dives (Kenya, Sicily, Malta), we'll extend this table with new ro
   - ✅ Variety of marine life (turtles, mantas, sharks, rays, eels, etc.)
   - ✅ Touched 18m depth range (Sudamala, Pillars of Hercules)
   - ❌ No night dives yet
-  - ❌ No wreck dives yet
+  - ✅ Wreck dive (Alpha Funguo Wreck – AOW)
   - ❌ No deeper dives (20–30m range) yet
   - ❌ No cooler water experience yet
   - ❌ No stronger current experience yet
