@@ -25,5 +25,7 @@ divinglog_latest_known:
 
 ### Human notes
 - You currently have **AOW**.
-- You expect to have **Nitrox** by **July**; once obtained, update this file so the agent can stop treating Nitrox as “expected”.
+- Nitrox detection rule (for automation):
+  - If your Nitrox course completion dives in `divinglog.md` have the `Gas` field set to something like `Nitrox`, `EAN`, or `EANx`, the agent can automatically mark Nitrox as obtained in this file.
+  - If Nitrox is only mentioned in free-form notes (not in `divinglog.md`'s `Gas` column) then the agent should ask you to confirm before changing the status.
 
