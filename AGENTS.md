@@ -44,3 +44,15 @@ When suggesting or ranking future dive trips, the agent should consult:
 In particular:
 - Treat `bottom water temperature < 20C` as a hard exclude.
 - Treat `bottom water temperature < 22C` as generally a skip (e.g., Malta in February), unless there is a clear, strong reason to still recommend that destination.
+
+## Current diver state (always check before planning)
+
+Before recommending specific dive sites or structuring a trip, the agent must:
+1. Recompute your **current dive count** from `divinglog.md` (counting the numbered table rows), so minimum-dive requirements are correct.
+2. Read your **highest known certification(s)** from `diver-status.md`.
+   - Right now: **AOW** is your current highest qualification.
+   - **Nitrox** is expected by **July**; once you confirm it’s obtained, update `diver-status.md`.
+
+If a destination’s sites have explicit minimum requirements (e.g., “25 dives” or “AOW required”), the agent should either:
+- ensure you meet them based on steps (1) and (2), or
+- ask you for confirmation/updates (if data is missing or Nitrox is uncertain).
