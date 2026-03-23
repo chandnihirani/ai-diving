@@ -60,3 +60,12 @@ If a destination’s sites have explicit minimum requirements (e.g., “25 dives
 Nitrox automation detail:
 - The agent may infer Nitrox completion and update `diver-status.md` if the relevant Nitrox course dives in `divinglog.md` have the `Gas` column set to values like `Nitrox`, `EAN`, or `EANx`.
 - If Nitrox is mentioned only in free-form notes and not reflected in `divinglog.md`'s `Gas` field, the agent should ask you to confirm.
+
+## Current equipment inventory (always check before budgeting)
+
+Before estimating trip costs (especially equipment-rental-heavy budgets) or recommending gear-dependent experiences, the agent should consult `equipment-inventory.md`.
+
+In particular:
+- Treat you as owning **mask + snorkel only** unless `equipment-inventory.md` says otherwise.
+- Assume you **rent** BCD/regulator/fins/wetsuit/weights/dive computer by default.
+- If you’re considering a dive computer purchase, prefer recommendations that match your likely Nitrox needs (Nitrox/EAN compatibility) and ask you for your budget range before “hard” assumptions.
