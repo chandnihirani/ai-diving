@@ -34,3 +34,13 @@ For exact naming, workflow, and what goes where, follow the **dive-categorizatio
 - **After any edit to this file**, run from the project root: `bash scripts/commit-agents-md.sh`
 - This creates a Git snapshot so changes can be reverted. Do it automatically; the user does nothing.
 - To revert AGENTS.md to a previous version, use `git checkout` or `git restore` with the desired commit.
+
+## Trip planning constraints (background context)
+
+When suggesting or ranking future dive trips, the agent should consult:
+- `trip-preferences.md` for always-on constraints (flight-time proximity from London, bottom-water temperature thresholds, direct-flight preference, trip cadence).
+- `trip-pricing-budget.md` for budget/price ballparks (flights + accommodation ranges; diving costs are estimated from real/observed dive-package prices when available).
+
+In particular:
+- Treat `bottom water temperature < 20C` as a hard exclude.
+- Treat `bottom water temperature < 22C` as generally a skip (e.g., Malta in February), unless there is a clear, strong reason to still recommend that destination.
