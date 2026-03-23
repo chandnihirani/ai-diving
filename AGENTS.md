@@ -56,3 +56,7 @@ Before recommending specific dive sites or structuring a trip, the agent must:
 If a destination’s sites have explicit minimum requirements (e.g., “25 dives” or “AOW required”), the agent should either:
 - ensure you meet them based on steps (1) and (2), or
 - ask you for confirmation/updates (if data is missing or Nitrox is uncertain).
+
+Nitrox automation detail:
+- The agent may infer Nitrox completion and update `diver-status.md` if the relevant Nitrox course dives in `divinglog.md` have the `Gas` column set to values like `Nitrox`, `EAN`, or `EANx`.
+- If Nitrox is mentioned only in free-form notes and not reflected in `divinglog.md`'s `Gas` field, the agent should ask you to confirm.
