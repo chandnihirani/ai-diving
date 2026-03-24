@@ -1,6 +1,6 @@
 ## Trip Pricing & Budget (ballparks + targets)
 
-Last updated: 2026-03-23
+Last updated: 2026-03-24
 
 This file stores your budget priorities so the agent can filter/rank trip suggestions by expected cost.
 
@@ -17,9 +17,10 @@ flights_europe_direct_low_cost:
   hard_exclude_if_over_gbp: 500
 
 accommodation:
-  preferred_per_night_range_gbp: [80, 90]
-  strongly_prefer_max_per_night_gbp: 120
-  hard_exclude_if_over_gbp: 200
+  # Ideal is still lower, but real bookings (e.g. Malta) land around ~£120/night.
+  preferred_per_night_range_gbp: [80, 100]
+  typical_maximum_per_night_gbp: 120
+  hard_exclude_if_over_gbp: 150
 
 diving_costs:
   # You said diving center pricing is roughly similar, so we don't lock strict diving-only numbers yet.
@@ -33,6 +34,6 @@ total_trip_budget:
 
 ### Human-readable guidance
 - Europe trips: favor destinations where typical **return flights** from London via low-cost carriers are roughly within `£150–£300` **round-trip per person**, and avoid anything that looks like it would be around `£500+`.
-- Accommodation: aim for roughly `£80–£90` per night; it’s plausible up to ~`£120` depending on the booking, but `£200+` per night is not expected/acceptable.
+- Accommodation: aim for roughly `£80–£100` per night where possible; a realistic ceiling for planned trips is **around `£120` per night** (confirmed by your Malta booking). Treat much above that (e.g. **`£150+`**) as generally not acceptable unless there is an unusual reason.
 - Diving: keep this lightweight for now; when we have real package quotes (or when we create “reference” entries), the agent should use those to estimate totals more accurately.
 
