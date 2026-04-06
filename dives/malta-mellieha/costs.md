@@ -1,4 +1,4 @@
-# Trip costs: Malta – Bugibba
+# Trip costs: Malta – Mellieha
 
 **Currency:** GBP (or EUR if you prefer to log in purchase currency)  
 **Trip dates:** (add exact dates)
@@ -22,4 +22,4 @@
 
 ## Notes
 
-- Trip is booked; replace placeholders with figures from confirmations.
+- Dive-focused trip; base **Mellieha**. Replace placeholders with figures from confirmations.

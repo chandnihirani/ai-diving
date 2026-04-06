@@ -19,4 +19,4 @@
 
 ## Notes
 
-- Fill from bookings and bank/card statements when you have time.
+- Dive-focused trip (Kenya Diani). Fill from bookings and bank/card statements when you have time.

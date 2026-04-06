@@ -18,14 +18,15 @@ Route all dive-related input into the project's folder structure. Use this skill
 - Full dive details, reflections, Q&A summary (written after a Q&A conversation—see dive-qa skill), self-ratings, challenges, media links.
 - One file per dive. Create the trip folder if it does not exist.
 
-**Trip-level costs → `dives/[trip]/costs.md` (optional but recommended once booked)**
-- One file per trip folder: flights, accommodation, diving packages, transfers, rental, other. Currency and dates at the top; line items and grand total.
-- Create `costs.md` when the user adds a new trip or asks to log costs; do not put detailed cost ledgers in `divinglog.md`.
+**Trip-level costs → `dives/[trip]/costs.md` (optional; dive-focused trips only)**
+- Use for **dive-only / dive-focused trips** where tracking full-trip spend matters for budgeting. Do **not** add for general holidays with only incidental diving (e.g. one dive day).
+- Contents: flights, accommodation, diving packages, transfers, rental, other. Currency and dates at the top; line items and grand total.
+- Create when the user asks to log costs or starts a new dive-focused trip; do not put detailed cost ledgers in `divinglog.md`.
 
 ## Naming
 
 **Trip folder:** `[country]-[location]` in lowercase, hyphenated.
-- Examples: `indonesia-komodo`, `turkey-dalaman`, `antigua`, `kenya-diani`, `sicily-taormina`, `malta-bugibba`.
+- Examples: `indonesia-komodo`, `turkey-dalaman`, `antigua`, `kenya-diani`, `sicily-taormina`, `malta-mellieha`.
 
 **Dive file:** `dive-[number]-[site-name].md`. Site name lowercase, hyphens for spaces.
 - Examples: `dive-10-mombasa-reef.md`, `dive-1-sebayur.md`.

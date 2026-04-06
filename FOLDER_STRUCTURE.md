@@ -3,7 +3,7 @@
 ### Overview
 
 - **`divinglog.md`** = High-level summary table only (one row per dive)
-- **`dives/`** = Detailed reflection files (one file per dive) plus optional **`costs.md`** per trip (actual spend)
+- **`dives/`** = Detailed reflection files (one file per dive). Optional **`costs.md`** only for **dive-focused trips** (actual spend); not used for general holidays with incidental diving.
 
 ---
 
@@ -17,19 +17,16 @@ diving_project/
 │
 └── dives/                          # Detailed dive reflections
     ├── indonesia-komodo/           # Trip: Indonesia, Komodo (Mar 2024)
-    │   ├── costs.md                # Actual trip spend (flights, stay, diving, …)
     │   ├── dive-1-sebayur.md
     │   ├── dive-2-siaba-besar.md
     │   ├── dive-3-mawan.md
     │   └── dive-4-sudamala.md
     │
     ├── turkey-dalaman/             # Trip: Turkey, Dalaman (Oct 2024)
-    │   ├── costs.md
     │   ├── dive-5-dalaman-1.md
     │   └── dive-6-baba-island.md
     │
     ├── antigua/                    # Trip: Antigua (May 2025)
-    │   ├── costs.md
     │   ├── dive-7-pillars-of-hercules.md
     │   ├── dive-8-blacks-point.md
     │   ├── dive-9-nanton-point.md
@@ -38,19 +35,18 @@ diving_project/
     │       ├── dive-8-blacks-point/
     │       └── dive-9-nanton-point/
     │
-    ├── kenya-diani/                # Trip: Kenya, Diani (Mar 2026)
-    │   ├── costs.md
+    ├── kenya-diani/                # Trip: Kenya, Diani (Mar 2026), dive-focused
+    │   ├── costs.md                # Dive-only trip cost log
     │   ├── dive-10-[site-name].md
     │   ├── dive-11-[site-name].md
     │   └── ...
     │
     ├── sicily-taormina/            # Trip: Sicily, Taormina (May 2025) - upcoming
-    │   ├── costs.md
     │   ├── dive-[#]-[site-name].md
     │   └── ...
     │
-    └── malta-bugibba/              # Trip: Malta, Bugibba (Jul 2025) - upcoming
-        ├── costs.md
+    └── malta-mellieha/             # Trip: Malta, Mellieha (dive-focused) - upcoming
+        ├── costs.md                # Dive-only trip cost log
         ├── dive-[#]-[site-name].md
         └── ...
 ```
@@ -73,8 +69,8 @@ diving_project/
 - Brief wildlife/notes summary (1–2 sentences max)
 - Links to detailed reflection files
 
-**`dives/[trip]/costs.md` (trip spend):**
-- Flights, accommodation, diving, transfers, rental, other; currency and dates; optional £/night or £/dive for comparison. Not duplicated in `divinglog.md`.
+**`dives/[trip]/costs.md` (trip spend, dive-focused trips only):**
+- Flights, accommodation, diving, transfers, rental, other; currency and dates; optional £/night or £/dive for comparison. Omit for trips that are mainly a general holiday with only incidental diving. Not duplicated in `divinglog.md`.
 
 **`dives/[trip]/dive-[#]-[site].md` (detailed reflections):**
 - Full PADI log data (if not in summary)
