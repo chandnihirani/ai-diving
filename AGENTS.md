@@ -22,6 +22,8 @@ The skill defines where every piece of information goes: summary table vs detail
 
 For exact naming, workflow, and what goes where, follow the **dive-categorization** skill.
 
+**Trip `costs.md` files:** Store all monetary amounts in **GBP**. If the user (or invoices) give prices in other currencies, **convert to GBP** using a clear, dated mid-market (or stated) rate and keep the original currency in a note or small table where helpful—do not leave trip totals only in foreign currency.
+
 ## Git versioning (local only)
 
 - **Commit after completing work.** Whenever you finish a task or a logical set of edits (e.g. adding a dive, updating the log, refactoring a file), commit the changes to Git. We use Git only for local versioning and revert capability—nothing is pushed to GitHub.
