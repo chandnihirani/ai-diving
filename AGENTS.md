@@ -18,7 +18,7 @@ The skill defines where every piece of information goes: summary table vs detail
 ## Project layout (summary)
 
 - **`divinglog.md`** – One row per dive; quantitative data and brief notes only.
-- **`dives/`** – One folder per trip (`[country]-[location]`), one file per dive (`dive-[#]-[site-name].md`). Reflections and Q&A summary (written after a Q&A conversation) go here. Each trip folder may include **`costs.md`** with actual booked costs (flights, stay, diving, etc.) for later reference and budgeting.
+- **`dives/`** – One folder per trip (`[country]-[location]`), one file per dive (`dive-[#]-[site-name].md`). Reflections and Q&A summary (written after a Q&A conversation) go here. For **dive-focused / dive-only trips** only, the trip folder may include **`costs.md`** (flights, stay, diving, etc.); skip this for general holidays where diving is incidental (e.g. one dive day on a beach trip).
 
 For exact naming, workflow, and what goes where, follow the **dive-categorization** skill.
 
@@ -40,7 +40,7 @@ For exact naming, workflow, and what goes where, follow the **dive-categorizatio
 When suggesting or ranking future dive trips, the agent should consult:
 - `trip-preferences.md` for always-on constraints (flight-time proximity from London, bottom-water temperature thresholds, direct-flight preference, trip cadence).
 - `trip-pricing-budget.md` for budget/price ballparks (flights + accommodation ranges; diving costs are estimated from real/observed dive-package prices when available).
-- **`dives/[trip]/costs.md`** for **historical actual spend** on past trips (hotels, flights, diving, etc.). When the user asks about trip costs, spending patterns, or “what did X cost before,” read the relevant `costs.md` files and use them together with `trip-pricing-budget.md`. When starting a **new** trip folder, create or remind the user to add `costs.md` there once bookings exist.
+- **`dives/[trip]/costs.md`** for **historical actual spend** on **dive-focused trips** (hotels, flights, diving, etc.). Do not expect or infer costs from trips that never had a `costs.md` (e.g. mixed holidays). When the user asks about trip costs or spending patterns, read the relevant `costs.md` files and use them together with `trip-pricing-budget.md`. For a **new dive-only trip**, create or remind the user to add `costs.md` once bookings exist.
 
 In particular:
 - Treat `bottom water temperature < 20C` as a hard exclude.
