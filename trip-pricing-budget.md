@@ -1,6 +1,6 @@
 ## Trip Pricing & Budget (ballparks + targets)
 
-Last updated: 2026-03-24
+Last updated: 2026-04-06
 
 This file stores your budget priorities so the agent can filter/rank trip suggestions by expected cost.
 
@@ -25,9 +25,10 @@ accommodation:
   hard_exclude_if_over_gbp: 150
 
 diving_costs:
-  # You said diving center pricing is roughly similar, so we don't lock strict diving-only numbers yet.
-  strict_thresholds: "none (yet)"
-  approach: "use observed/quoted dive package prices when available; otherwise estimate ranges using comparable nearby centers"
+  # "Two-tank dive" = one typical outing of two single-tank dives (two dives / two tanks same session or day).
+  two_tank_dive_session_max_gbp: 150
+  interpretation: "When comparing quotes or costs.md figures, derive cost per two-dive outing and treat ~£150 as the usual ceiling (like hotel £/night and flight bands)."
+  approach: "Use observed/quoted dive-package prices from costs.md or centres when available; convert to GBP. Flag if a two-dive block would exceed two_tank_dive_session_max_gbp unless there is a clear reason (e.g. remote boat, specialty)."
 
 total_trip_budget:
   # We'll refine this as you book more trips.
@@ -37,5 +38,5 @@ total_trip_budget:
 ### Human-readable guidance
 - Europe trips: favor destinations where typical **return flights** from London via low-cost carriers are roughly within `£150–£300` **round-trip per person**, and avoid anything that looks like it would be around `£500+`.
 - Accommodation: aim for roughly `£80–£100` per night where possible; a realistic ceiling for planned trips is **around `£120` per night** (confirmed by your Malta booking). Treat much above that (e.g. **`£150+`**) as generally not acceptable unless there is an unusual reason.
-- Diving: keep this lightweight for now; when we have real package quotes (or when we create “reference” entries), the agent should use those to estimate totals more accurately.
+- **Diving (two-tank / two-dive block):** treat **~£150** as the usual **maximum** for a **two-dive outing** (two single-tank dives—same as a “2 tank dive” day). Use it like the hotel and flight bands: compare derived costs from packages (`dives/[trip]/costs.md` or quotes) by computing **(price for N dives) ÷ N × 2** for a two-dive slice, or **half the quoted day rate** if pricing is per two-dive trip. If a destination’s going rate is **above £150** for that two-dive block, call it out as over the usual budget unless there is a strong reason (e.g. long boat day, park fees bundled, specialty site).
 
