@@ -4,7 +4,7 @@ Last updated: 2026-03-24
 
 This file stores your budget priorities so the agent can filter/rank trip suggestions by expected cost.
 
-For **what you actually paid** on **dive-focused trips**, see **`dives/[trip]/costs.md`** where it exists (not every trip has one—e.g. skip mixed beach holidays with only a day of diving).
+For **what you actually paid** on **dive-focused trips**, see **`dives/[trip]/costs.md`** where it exists (not every trip has one—e.g. skip mixed beach holidays with only a day of diving). Amounts there are kept in **GBP**, with foreign-currency inputs converted and the rate noted.
 
 ### Structured budget rules (machine-readable)
 

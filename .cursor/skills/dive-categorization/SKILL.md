@@ -20,7 +20,7 @@ Route all dive-related input into the project's folder structure. Use this skill
 
 **Trip-level costs → `dives/[trip]/costs.md` (optional; dive-focused trips only)**
 - Use for **dive-only / dive-focused trips** where tracking full-trip spend matters for budgeting. Do **not** add for general holidays with only incidental diving (e.g. one dive day).
-- Contents: flights, accommodation, diving packages, transfers, rental, other. Currency and dates at the top; line items and grand total.
+- Contents: flights, accommodation, diving packages, transfers, rental, other. **All amounts in GBP:** if the user gives EUR/USD/etc., convert to GBP (state the rate and date used in the file), and optionally retain originals in a short conversion note.
 - Create when the user asks to log costs or starts a new dive-focused trip; do not put detailed cost ledgers in `divinglog.md`.
 
 ## Naming

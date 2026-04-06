@@ -70,7 +70,7 @@ diving_project/
 - Links to detailed reflection files
 
 **`dives/[trip]/costs.md` (trip spend, dive-focused trips only):**
-- Flights, accommodation, diving, transfers, rental, other; currency and dates; optional £/night or £/dive for comparison. Omit for trips that are mainly a general holiday with only incidental diving. Not duplicated in `divinglog.md`.
+- **All figures in GBP**; convert from other currencies and record the rate used. Flights, accommodation, diving, transfers, rental, other; optional £/night or £/dive for comparison. Omit for trips that are mainly a general holiday with only incidental diving. Not duplicated in `divinglog.md`.
 
 **`dives/[trip]/dive-[#]-[site].md` (detailed reflections):**
 - Full PADI log data (if not in summary)
