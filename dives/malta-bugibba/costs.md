@@ -1,0 +1,25 @@
+# Trip costs: Malta – Bugibba
+
+**Currency:** GBP (or EUR if you prefer to log in purchase currency)  
+**Trip dates:** (add exact dates)
+
+## Booked / actual
+
+| Item                         | Amount | Notes |
+|-----------------------------|--------|-------|
+| Return flights              |        |       |
+| Accommodation (n nights)    |        |       |
+| Diving / Nitrox course      |        |       |
+| Transfers / local transport |        |       |
+| Equipment rental            |        |       |
+| Insurance / other           |        |       |
+
+**Grand total (trip):**
+
+**Useful derived figures (optional):**  
+- Effective **£/night** (accommodation):  
+- **£/dive** or **£/dive day** (if you want to compare to other trips):
+
+## Notes
+
+- Trip is booked; replace placeholders with figures from confirmations.

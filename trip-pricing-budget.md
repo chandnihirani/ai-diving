@@ -4,6 +4,8 @@ Last updated: 2026-03-24
 
 This file stores your budget priorities so the agent can filter/rank trip suggestions by expected cost.
 
+For **what you actually paid** on completed or booked trips, see **`dives/[trip]/costs.md`** in each trip folder (historical actuals complement these ballparks).
+
 ### Structured budget rules (machine-readable)
 
 ```yaml

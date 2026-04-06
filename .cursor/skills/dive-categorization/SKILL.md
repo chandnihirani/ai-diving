@@ -18,6 +18,10 @@ Route all dive-related input into the project's folder structure. Use this skill
 - Full dive details, reflections, Q&A summary (written after a Q&A conversation—see dive-qa skill), self-ratings, challenges, media links.
 - One file per dive. Create the trip folder if it does not exist.
 
+**Trip-level costs → `dives/[trip]/costs.md` (optional but recommended once booked)**
+- One file per trip folder: flights, accommodation, diving packages, transfers, rental, other. Currency and dates at the top; line items and grand total.
+- Create `costs.md` when the user adds a new trip or asks to log costs; do not put detailed cost ledgers in `divinglog.md`.
+
 ## Naming
 
 **Trip folder:** `[country]-[location]` in lowercase, hyphenated.
