@@ -4,27 +4,38 @@ Last updated: 2026-04-16
 
 ## Bucket list summary
 
-Use this table to track completion at a glance. Readiness uses traffic-light color styling for quick scanning.
+Use this table to track completion at a glance. The `Environment` column is a compact tag for the main style of diving each destination represents. Readiness is kept to a simple 3-tier scale for quick scanning.
 
-| Destination | Done | Readiness |
-|---|---|---|
-| Maldives |  | <span style="color:#b58900;">Close / one trip away</span> |
-| Raja Ampat |  | <span style="color:#a35a00;">Needs more current practice</span> |
-| Philippines (Moalboal / Malapascua / similar) |  | <span style="color:#2aa198;">Closest now</span> |
-| Fiji (Rainbow Reef / Somosomo Strait) |  | <span style="color:#b58900;">Close / one trip away</span> |
-| Komodo | 🟠 | <span style="color:#a35a00;">Mid-term build</span> |
-| Sipadan |  | <span style="color:#b58900;">Close / one trip away</span> |
-| Red Sea Liveaboard (Brothers / Daedalus / Elphinstone style) |  | <span style="color:#a35a00;">Mid-term build</span> |
-| Palau |  | <span style="color:#a35a00;">Needs more current practice</span> |
-| Socorro |  | <span style="color:#dc322f;">Longer-term goal</span> |
-| Galapagos |  | <span style="color:#dc322f;">Longer-term goal</span> |
-| Great Barrier Reef |  | <span style="color:#b58900;">Close / one trip away</span> |
-| Cocos Island |  | <span style="color:#dc322f;">Longer-term goal</span> |
-| French Polynesia (Fakarava / Rangiroa) |  | <span style="color:#a35a00;">Needs more current practice</span> |
-| Tubbataha Reefs |  | <span style="color:#a35a00;">Needs more current practice</span> |
-| Cabo Pulmo / Baja liveaboard |  | <span style="color:#a35a00;">Mid-term build</span> |
-| Jardines de la Reina |  | <span style="color:#a35a00;">Mid-term build</span> |
-| Malpelo |  | <span style="color:#dc322f;">Longer-term goal</span> |
+| Destination | Environment | Done | Readiness |
+|---|---|---|---|
+| Maldives | Reef / current / pelagic |  | <span style="color:#2aa198;">Near-term</span> |
+| Raja Ampat | Reef / current / pelagic |  | <span style="color:#a35a00;">Mid-term</span> |
+| Philippines (Moalboal / Malapascua / similar) | Reef / current / pelagic |  | <span style="color:#2aa198;">Near-term</span> |
+| Fiji (Rainbow Reef / Somosomo Strait) | Reef / current / pelagic |  | <span style="color:#2aa198;">Near-term</span> |
+| Komodo | Reef / current / pelagic | 🟠 | <span style="color:#a35a00;">Mid-term</span> |
+| Sipadan | Reef / current / pelagic |  | <span style="color:#2aa198;">Near-term</span> |
+| Red Sea Liveaboard (Brothers / Daedalus / Elphinstone style) | Reef / current / pelagic |  | <span style="color:#a35a00;">Mid-term</span> |
+| Palau | Reef / current / pelagic |  | <span style="color:#a35a00;">Mid-term</span> |
+| Socorro | Reef / current / pelagic |  | <span style="color:#dc322f;">Longer-term</span> |
+| Galapagos | Reef / current / pelagic |  | <span style="color:#dc322f;">Longer-term</span> |
+| Great Barrier Reef | Reef / current / pelagic |  | <span style="color:#2aa198;">Near-term</span> |
+| Cocos Island | Reef / current / pelagic |  | <span style="color:#dc322f;">Longer-term</span> |
+| French Polynesia (Fakarava / Rangiroa) | Reef / current / pelagic |  | <span style="color:#a35a00;">Mid-term</span> |
+| Tubbataha Reefs | Reef / current / pelagic |  | <span style="color:#a35a00;">Mid-term</span> |
+| Cabo Pulmo / Baja liveaboard | Reef / current / pelagic |  | <span style="color:#a35a00;">Mid-term</span> |
+| Jardines de la Reina | Reef / current / pelagic |  | <span style="color:#a35a00;">Mid-term</span> |
+| Malpelo | Reef / current / pelagic |  | <span style="color:#dc322f;">Longer-term</span> |
+| Truk Lagoon | Wreck |  | <span style="color:#dc322f;">Longer-term</span> |
+| Scapa Flow | Wreck |  | <span style="color:#dc322f;">Longer-term</span> |
+| SS Yongala | Wreck |  | <span style="color:#a35a00;">Mid-term</span> |
+| Zenobia | Wreck |  | <span style="color:#2aa198;">Near-term</span> |
+| Thistlegorm | Wreck |  | <span style="color:#a35a00;">Mid-term</span> |
+| Coron | Wreck |  | <span style="color:#a35a00;">Mid-term</span> |
+| Mexican Cenotes (Yucatan) | Cenote / cavern |  | <span style="color:#2aa198;">Near-term</span> |
+| Lembeh Strait | Macro / muck |  | <span style="color:#2aa198;">Near-term</span> |
+| Anilao | Macro / muck |  | <span style="color:#2aa198;">Near-term</span> |
+| Silfra | Cold / temperate |  | <span style="color:#a35a00;">Mid-term</span> |
+| Kelp Forests (California / Channel Islands) | Cold / temperate |  | <span style="color:#a35a00;">Mid-term</span> |
 
 ## Current snapshot
 
@@ -295,32 +306,151 @@ This list is intentionally expandable. It is not capped at 10 if there are other
 - Status logic:
   - Treat this alongside Cocos and Galapagos as an advanced expedition-level goal.
 
+### 18. Truk Lagoon - Micronesia
+
+- Why it is here: one of the most famous wreck-diving destinations on earth, with an unmatched concentration of historic WWII wrecks.
+- Typical readiness target:
+  - **AOW**
+  - **Wreck training helpful**
+  - **40-50 dives**
+  - Good buoyancy/trim around structure
+  - Comfort with darker interiors and disciplined finning
+- Status logic:
+  - The lagoon has easier external wreck dives, but the iconic version of Truk usually means strong wreck competence and control.
+
+### 19. Scapa Flow - Scotland
+
+- Why it is here: one of the world's classic historic wreck destinations, especially for serious wreck enthusiasts and colder-water diving progression.
+- Typical readiness target:
+  - **AOW minimum; Drysuit strongly preferred**
+  - **Wreck training helpful**
+  - **40-60 dives**
+  - Cold-water composure
+  - Good buoyancy and comfort in lower visibility
+- Status logic:
+  - This is less about tropical prestige and more about becoming capable enough to enjoy major historic wreck diving properly.
+
+### 20. SS Yongala - Australia
+
+- Why it is here: one of the world's most iconic single wreck dives, combining major wreck prestige with dense marine life.
+- Typical readiness target:
+  - **AOW**
+  - **25-35 dives**
+  - Good buoyancy around a wreck
+  - Basic current comfort
+  - Boat-diving confidence
+- Status logic:
+  - Much more achievable than the hardest wreck destinations, but still deserves respect because conditions can be lively.
+
+### 21. Zenobia - Cyprus
+
+- Why it is here: one of the best-known wreck dives in Europe and arguably the most famous recreational wreck in the Mediterranean.
+- Typical readiness target:
+  - **AOW**
+  - **20-30 dives**
+  - Good buoyancy around structure
+  - Comfort with depth and basic wreck procedures
+- Status logic:
+  - One of the most accessible true bucket-list wrecks, and a very strong Europe wreck target.
+
+### 22. Thistlegorm - Egypt
+
+- Why it is here: one of the world's classic wreck dives, combining historic cargo holds with Red Sea marine life and global name recognition.
+- Typical readiness target:
+  - **AOW**
+  - **25-35 dives**
+  - Good buoyancy around structure
+  - Comfortable boat diving and moderate current
+- Status logic:
+  - A very realistic mid-term wreck target that gives you one of the world's most famous wreck experiences without needing technical-level wreck progression.
+
+### 23. Coron - Philippines
+
+- Why it is here: one of Asia's most famous wreck destinations, with multiple WWII wrecks and a strong mix of wreck-diving depth progression.
+- Typical readiness target:
+  - **AOW**
+  - **25-35 dives**
+  - Good buoyancy and trim
+  - Comfort with repeated wreck diving and moderate depth
+- Status logic:
+  - A strong wreck-focused step up from more general recreational reef travel, but still well below the hardest wreck destinations.
+
+### 24. Mexican Cenotes (Yucatan) - Mexico
+
+- Why it is here: the world's most iconic cenote and cavern diving region, with light effects, haloclines, and a completely different underwater environment from reef diving.
+- Typical readiness target:
+  - **AOW helpful**
+  - **Good buoyancy/trim**
+  - Calm finning and awareness in overhead-adjacent spaces
+  - Comfort following cavern procedures with a guide
+- Status logic:
+  - The guided cavern version can be accessible relatively early, but clean buoyancy and trim matter a lot more than raw dive count.
+
+### 25. Lembeh Strait - Indonesia
+
+- Why it is here: the benchmark destination for macro and muck diving, famous for critter hunting rather than big scenery or current.
+- Typical readiness target:
+  - **OW or AOW**
+  - Good buoyancy near sand and small subjects
+  - Patience, control, and camera discipline if shooting
+- Status logic:
+  - This is one of the most accessible bucket-list categories from a difficulty standpoint, but it rewards refined control and observation.
+
+### 26. Anilao - Philippines
+
+- Why it is here: one of the world's best all-round macro destinations, with critters, reef variety, and strong photography appeal.
+- Typical readiness target:
+  - **OW or AOW**
+  - Good buoyancy/trim
+  - Comfortable repetitive diving
+  - Strong interest in macro / small-life hunting
+- Status logic:
+  - Similar to Lembeh in accessibility, but as a bucket-list item it is especially strong for macro lovers and photographers.
+
+### 27. Silfra - Iceland
+
+- Why it is here: one of the world's most iconic non-tropical dives, prized for geology, visibility, and the tectonic setting rather than marine life.
+- Typical readiness target:
+  - **Drysuit qualification usually required**
+  - Cold-water composure
+  - Calm buoyancy and trim in very clear water
+- Status logic:
+  - This is a special-environment destination more than a technical challenge, but it requires comfort with cold and drysuit systems.
+
+### 28. Kelp Forests (California / Channel Islands) - USA
+
+- Why it is here: one of the great temperate-water underwater ecosystems, completely different from tropical reefs and valuable for broadening your idea of what world-class diving can be.
+- Typical readiness target:
+  - **AOW helpful**
+  - **Drysuit or thicker exposure protection helpful**
+  - Temperate-water comfort
+  - Good buoyancy in surge and around kelp
+- Status logic:
+  - This is more about broadening dive-environment range than chasing a harder skill threshold, but it still needs colder-water readiness.
+
 ## How future readiness checks should work
 
-When you ask, "How close am I to being ready for the bucket-list items?", answer destination by destination using this format:
+When you ask, "How close am I to being ready for the bucket-list items?", keep the summary answer in this simple format:
 
-- `Ready now`
-- `Close / one trip away`
-- `Needs more current practice`
-- `Needs Nitrox`
-- `Longer-term goal`
+- `Near-term`
+- `Mid-term`
+- `Longer-term`
 
 Examples:
 
-- "Ready for the Philippines now."
-- "Close for Maldives; Nitrox plus a few more current dives would make it cleaner."
-- "Raja Ampat still needs more drift repetition, more SMB reps, and reef-hook / negative-entry evidence."
-- "Galapagos is still a longer-term build."
+- "Philippines is near-term."
+- "Maldives is near-term, but Nitrox plus a few more current dives would make it cleaner."
+- "Raja Ampat is mid-term because you still need more drift repetition, SMB reps, and reef-hook / negative-entry evidence."
+- "Galapagos is longer-term."
 - "Komodo has been sampled, but not yet completed in the full bucket-list sense."
 
 ## Current likely position
 
 Based on the log as it stands today:
 
-- **Closest bucket-list items:** Philippines, then Maldives / Fiji / Sipadan / Great Barrier Reef
-- **Mid-term build:** Komodo, Red Sea liveaboard, Cabo Pulmo / Baja, Jardines de la Reina
-- **Needs stronger current-specific evidence:** Raja Ampat, Palau, French Polynesia, Tubbataha
-- **Longer-term:** Socorro, Galapagos, Cocos Island, Malpelo
+- **Near-term:** Philippines, Maldives, Fiji, Sipadan, Great Barrier Reef, Zenobia, Mexican Cenotes, Lembeh, Anilao
+- **Mid-term:** Komodo, Raja Ampat, Palau, French Polynesia, Tubbataha, Red Sea liveaboard, Cabo Pulmo / Baja, Jardines de la Reina, SS Yongala, Thistlegorm, Coron, Silfra, Kelp Forests
+- **Longer-term:** Socorro, Galapagos, Cocos Island, Malpelo, Truk Lagoon, Scapa Flow
 
 ## Notes
 
