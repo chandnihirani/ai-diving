@@ -1,7 +1,7 @@
 # Trip costs: Malta – Mellieha
 
 **Reporting currency:** GBP (all figures below; foreign amounts converted — see footnote).  
-**Trip dates:** (add exact dates)
+**Trip dates:** Jul 2026 (add exact dates if you want)
 
 **Status:** Partial — more line items may follow (transfers, rental, insurance, etc.).
 

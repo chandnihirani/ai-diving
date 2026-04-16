@@ -46,6 +46,6 @@ All totals are recorded in **GBP** (foreign-currency inputs converted with rate 
 
 | Trip | Month/Year | Total (GBP) | Status | Notes | Detail |
 |------|------------|-------------|--------|-------|--------|
-| Kenya – Diani | Mar 2026 | **£1,512.94–£1,562.94** | Complete-ish | Range depends on actual food/taxis (logged as ≤£50 cap) | [→](dives/kenya-diani/costs.md) |
-| Malta – Mellieha | (add) | **£1,385.45** (subtotal) | Partial | Known: flights, hotel, Nitrox eLearning, 10-dive pack. Still missing: transfers, rental, insurance, food, extras | [→](dives/malta-mellieha/costs.md) |
+| Kenya – Diani | Mar 2026 | **£1,512.94–£1,562.94** | Complete | Range depends on actual food/taxis (logged as ≤£50 cap) | [→](dives/kenya-diani/costs.md) |
+| Malta – Mellieha | Jul 2026 | **£1,385.45** (subtotal) | Partial | Known: flights, hotel, Nitrox eLearning, 10-dive pack. Still missing: transfers, rental, insurance, food, extras | [→](dives/malta-mellieha/costs.md) |
 
