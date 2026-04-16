@@ -13,6 +13,10 @@ The skill defines where every piece of information goes: summary table vs detail
 
 After logging a dive or finishing dive Q&A, if the new information materially affects readiness evidence (e.g. dive count, Nitrox, SMB deployment, drift/current comfort, buoyancy/trim, reef hook, negative entry, blue-water comfort, boat/liveaboard comfort), refresh `bucket-list-readiness.md`.
 
+If the newly logged or updated dives are from a destination already on the bucket list (e.g. Maldives, Raja Ampat, Komodo, Fiji), the refresh must update both:
+- the top summary table row for that destination, including `Done` status (`✅` for meaningful completion, `🟠` for partial-only exposure)
+- the detailed section for that destination under `## Bucket list destinations`
+
 - **Use the dive-qa skill** when the user wants to do Q&A on a specific dive (e.g. "Q&A on dive 3", "let's reflect on Mawan"). Conduct the Q&A in chat, then write a short **Q&A summary** into that dive's file (not the full transcript).
 
 - **Use the bucket-list-readiness skill** when the user asks how close they are to bucket-list destinations, asks if they are ready for a specific bucket-list trip, or when new dive/Q&A content materially changes readiness evidence.
