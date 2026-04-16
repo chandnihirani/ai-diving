@@ -11,7 +11,11 @@ This project is a **personal diving log**. The user adds dive data (from PADI ap
 
 The skill defines where every piece of information goes: summary table vs detailed files, folder names, and file names.
 
+After logging a dive or finishing dive Q&A, if the new information materially affects readiness evidence (e.g. dive count, Nitrox, SMB deployment, drift/current comfort, buoyancy/trim, reef hook, negative entry, blue-water comfort, boat/liveaboard comfort), refresh `bucket-list-readiness.md`.
+
 - **Use the dive-qa skill** when the user wants to do Q&A on a specific dive (e.g. "Q&A on dive 3", "let's reflect on Mawan"). Conduct the Q&A in chat, then write a short **Q&A summary** into that dive's file (not the full transcript).
+
+- **Use the bucket-list-readiness skill** when the user asks how close they are to bucket-list destinations, asks if they are ready for a specific bucket-list trip, or when new dive/Q&A content materially changes readiness evidence.
 
 - **Use the dive-photo-ingest skill** when the user wants to ingest dive photos (e.g. from DJI Osmo Action), store them in per-dive folders, and tag them to dives by timestamp. Run the ingestion script, then update the **Media** section in affected dive files.
 
