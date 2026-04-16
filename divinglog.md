@@ -123,12 +123,12 @@ When you want to go deeper on **one dive**, use the **dive-qa skill** (e.g. "Let
 1. You indicate which dive (by number, site name, or trip).
 2. I read that dive's file (dive data + your reflections) and we have a **back-and-forth Q&A in chat**.
 3. Questions are based on what you wrote—challenges, highlights, wildlife, skills, conditions.
-4. When you're done, I write a **Q&A summary** (not the full transcript) into that dive file under "Q&A summary". When relevant, the summary can include a short **Raja Ampat readiness** block (SMB, drift, buoyancy, reef hook, negative entry) so "how close am I to Raja Ampat?" can be answered from this log.
+4. When you're done, I write a **Q&A summary** (not the full transcript) into that dive file under "Q&A summary". When relevant, the summary can include a short **Bucket list readiness** block (SMB, drift/current comfort, buoyancy/trim, reef hook, negative entry, blue-water comfort, boat/liveaboard comfort) so "how close am I to my bucket-list trips?" can be answered from this log.
 
 **Where it goes:**
 
 - The **conversation** stays in chat.
-- A **short summary** of what we discussed (themes, insights, takeaways) is written to `dives/[trip]/dive-[#]-[site].md` in the "Q&A summary" section. Optionally we add a **Raja Ampat readiness** block (SMB deployed? Drift 1–5? Buoyancy 1–5? Reef hook? Negative entry?) so your main log feeds into "how close am I to Raja Ampat?" without a separate log.
+- A **short summary** of what we discussed (themes, insights, takeaways) is written to `dives/[trip]/dive-[#]-[site].md` in the "Q&A summary" section. Optionally we add a **Bucket list readiness** block (SMB deployed? Drift/current comfort 1-5? Buoyancy/trim 1-5? Reef hook? Negative entry? Blue-water comfort 1-5? Boat/liveaboard comfort 1-5?) so your main log feeds into "how close am I to the bucket-list trips?" without a separate log.
 
 **Why this matters:**
 

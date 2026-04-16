@@ -75,7 +75,7 @@ diving_project/
 **`dives/[trip]/dive-[#]-[site].md` (detailed reflections):**
 - Full PADI log data (if not in summary)
 - Your complete reflections/voice notes
-- Q&A summary (written after a Q&A conversation on that dive—use the dive-qa skill). Can include a **Raja Ampat readiness** block (SMB, drift, buoyancy, reef hook, negative entry) so the raja-ampat-readiness skill can assess progress from this log.
+- Q&A summary (written after a Q&A conversation on that dive—use the dive-qa skill). Can include a **Bucket list readiness** block (SMB, drift/current comfort, buoyancy/trim, reef hook, negative entry, blue-water comfort, boat/liveaboard comfort) so future readiness checks can assess progress across all bucket-list destinations from the same log.
 - Self-ratings (buoyancy, trim, navigation, etc.)
 - Detailed notes on challenges, breakthroughs, learning moments
 - Links to media (photos/videos) if applicable

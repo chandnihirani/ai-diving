@@ -1,0 +1,20 @@
+---
+description: Keep bucket-list readiness updated from dive logs and Q&A
+alwaysApply: true
+---
+
+# Bucket List Readiness
+
+Use the project skill `bucket-list-readiness` when the user asks about readiness for bucket-list destinations such as Maldives, Raja Ampat, Philippines, Fiji, Komodo, Sipadan, Palau, Socorro, or Galapagos.
+
+When new dive logging or dive Q&A adds material readiness evidence, refresh `bucket-list-readiness.md`, especially:
+
+- `## Bucket list summary`
+- `Last updated`
+- `## Current snapshot`
+- the relevant destination section under `## Bucket list destinations`
+- `## Current likely position` when the ranking changes
+
+Do not treat Raja Ampat as a separate readiness system unless the user explicitly asks for a Raja-Ampat-only view.
+
+For dives that took place at a bucket-list destination, update the summary row and destination section in the same workflow after logging and Q&A.

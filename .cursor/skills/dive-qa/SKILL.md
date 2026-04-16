@@ -29,13 +29,13 @@ Run a back-and-forth Q&A in chat about one dive, using dive data and reflections
 - Keep the conversation in the chat; do not paste the transcript into the dive file.
 - Continue until the user indicates they're done (e.g. "that's it", "no more questions", "summarise this").
 
-#### Raja Ampat–related questions (organic, not a checklist)
+#### Bucket-list readiness questions (organic, not a checklist)
 
-- **Do not** run through the same fixed Raja Ampat questions (SMB, drift, buoyancy, reef hook, negative entry) on every Q&A. Weave them in only when they fit the conversation and the dive.
-- **Use what's already there**: If their reflections or the conversation already cover a criterion (e.g. they mentioned deploying an SMB, or "current was strong and I felt fine"), treat it as covered—follow up naturally if you need a 1–5 or Y/N for the block, or skip if the answer is clear.
-- **Match questions to the dive**: Only ask about criteria that are relevant to *this* dive (e.g. drift/current comfort when the log shows current; SMB when it was an open-water dive where they might have deployed; reef hook when the site or conditions suggest it). Don't ask about reef hook on a calm, no-current dive unless it came up.
-- **One natural question at a time**: Integrate one topic into the flow (e.g. "You mentioned the current—how comfortable did you feel, on a scale of 1–5?") rather than firing a list. If they're done before every Raja Ampat criterion is covered, that's fine—capture what was discussed in the summary and block.
-- When writing the Q&A summary, add the **Raja Ampat readiness (this dive)** block only for criteria that were actually discussed; use "—" or omit lines for criteria not covered in this Q&A.
+- **Do not** run through the same fixed readiness questions on every Q&A. Weave them in only when they fit the conversation and the dive.
+- **Use what's already there**: If their reflections or the conversation already cover a criterion (e.g. they mentioned deploying an SMB, or "current was strong and I felt fine"), treat it as covered—follow up naturally if you need a 1-5 or Y/N for the block, or skip if the answer is clear.
+- **Match questions to the dive**: Only ask about criteria that are relevant to *this* dive (e.g. drift/current comfort when the log shows current; SMB when it was an open-water dive where they might have deployed; reef hook when the site or conditions suggest it; blue-water or boat comfort when the setting actually supports it). Don't ask about reef hook on a calm, no-current dive unless it came up.
+- **One natural question at a time**: Integrate one topic into the flow (e.g. "You mentioned the current—how comfortable did you feel, on a scale of 1-5?") rather than firing a list. If they're done before every criterion is covered, that's fine—capture what was discussed in the summary and block.
+- When writing the Q&A summary, add the **Bucket list readiness (this dive)** block only for criteria that were actually discussed; use "—" or omit lines for criteria not covered in this Q&A.
 
 ### 3. Write the summary to the dive file
 
@@ -46,6 +46,8 @@ Run a back-and-forth Q&A in chat about one dive, using dive data and reflections
   - **What to look out for**: Things to watch for or pay attention to on future dives.
   - **Areas to work on or get help with**: Where the user might need support—including anything you noticed from the Q&A that they didn’t mention in their reflections.
 - Optionally add a brief note on main themes discussed. Do not put the full Q&A transcript in the file.
+- If the Q&A adds material bucket-list evidence, refresh `bucket-list-readiness.md` after updating the dive file.
+- If the dive belongs to a bucket-list destination, the refresh must also update that destination's summary-table row and detailed destination section.
 
 ## Dive file section
 
@@ -72,10 +74,10 @@ After a Q&A session, replace the placeholder (or previous summary) with your wri
 - **Immediately after finishing a new or updated dive via dive-categorization**, automatically start **dive-qa** for that specific dive *unless the user has explicitly said they don’t want Q&A right now* (e.g. “just log this, no Q&A”).
 - **Q&A on an existing dive** (conversation + summary in file) → use **dive-qa**.
 
-Both can touch the same dive file: categorization for structure and data; dive-qa for the Q&A summary section only.
+Both can touch the same dive file: categorization for structure and data; dive-qa for the Q&A summary section only. The shared bucket-list tracker is refreshed separately when either flow adds meaningful readiness evidence, and bucket-list destinations must also refresh their summary-table row and detailed destination section.
 
-## When to do Q&A (and when Raja Ampat comes in)
+## When to do Q&A (and when bucket-list readiness comes in)
 
 - Q&A is **normally not required after every dive** when considered in isolation, but when a dive has just been logged or updated and the user hasn’t opted out, treat that as a signal to *go ahead and run Q&A now*.
 - The user can always say they want to skip or stop Q&A (e.g. “no Q&A for this one”, “let’s pause here”)—in that case, don’t start or continue Q&A.
-- Raja Ampat criteria don’t need to be asked every time. Be selective: ask when the dive is relevant (current, open water, drift, etc.) or when the conversation naturally goes there. If the user does Q&A on a calm, shallow dive with no SMB or current, you may cover little or no Raja Ampat—that’s fine. Readiness can still be assessed from other dives’ Q&A summaries and reflections.
+- Bucket-list readiness criteria don’t need to be asked every time. Be selective: ask when the dive is relevant (current, open water, drift, blue water, liveaboard routine, etc.) or when the conversation naturally goes there. If the user does Q&A on a calm, shallow dive with no SMB or current, you may cover little or none of the readiness block—that’s fine. Readiness can still be assessed from other dives’ Q&A summaries and reflections.
