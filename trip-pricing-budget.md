@@ -40,3 +40,12 @@ total_trip_budget:
 - Accommodation: aim for roughly `£80–£100` per night where possible; a realistic ceiling for planned trips is **around `£120` per night** (confirmed by your Malta booking). Treat much above that (e.g. **`£150+`**) as generally not acceptable unless there is an unusual reason.
 - **Diving (two-tank / two-dive block):** treat **~£150** as the usual **maximum** for a **two-dive outing** (two single-tank dives—same as a “2 tank dive” day). Use it like the hotel and flight bands: compare derived costs from packages (`dives/[trip]/costs.md` or quotes) by computing **(price for N dives) ÷ N × 2** for a two-dive slice, or **half the quoted day rate** if pricing is per two-dive trip. If a destination’s going rate is **above £150** for that two-dive block, call it out as over the usual budget unless there is a strong reason (e.g. long boat day, park fees bundled, specialty site).
 
+### Historical actual costs (dive-focused trips)
+
+All totals are recorded in **GBP** (foreign-currency inputs converted with rate noted in each trip’s `costs.md`).
+
+| Trip | Month/Year | Total (GBP) | Status | Notes | Detail |
+|------|------------|-------------|--------|-------|--------|
+| Kenya – Diani | Mar 2026 | **£1,512.94–£1,562.94** | Complete-ish | Range depends on actual food/taxis (logged as ≤£50 cap) | [→](dives/kenya-diani/costs.md) |
+| Malta – Mellieha | (add) | **£1,385.45** (subtotal) | Partial | Known: flights, hotel, Nitrox eLearning, 10-dive pack. Still missing: transfers, rental, insurance, food, extras | [→](dives/malta-mellieha/costs.md) |
+
