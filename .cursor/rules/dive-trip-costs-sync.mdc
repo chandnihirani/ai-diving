@@ -1,0 +1,16 @@
+# Keep dive-trip costs in sync (GBP + summary table)
+
+Whenever the user provides **trip cost** information (flights, hotels, diving packages, course fees, transfers, rental, food, insurance, etc.) for a **dive-focused trip**:
+
+- Update the relevant trip file: `dives/[trip]/costs.md`
+  - **All amounts must be recorded in GBP.**
+  - If the user provides EUR/USD/etc., **convert to GBP** and **record the FX rate + date** used (and optionally keep the original currency amount in a small conversion table).
+- After updating any `dives/**/costs.md`, update the **summary table** in `trip-pricing-budget.md` under:
+  - `### Historical actual costs (dive-focused trips)`
+  - Keep the row’s **Month/Year**, **Total (GBP)**, and **Status** accurate:
+    - Use **“Partial”** and **subtotal** language when not all line items are known.
+    - Use a **range** only when an item is explicitly a cap/estimate (e.g. “≤£50”).
+  - Ensure the row links back to the trip’s `costs.md`.
+
+Additionally, when the user finishes logging a dive-focused trip (or is doing Q&A on the last dives of that trip), proactively ask for any missing cost categories (transfers, equipment rental, insurance, food, extras) so the `costs.md` and the summary table stay current.
+

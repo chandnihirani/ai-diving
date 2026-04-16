@@ -49,6 +49,19 @@ Run a back-and-forth Q&A in chat about one dive, using dive data and reflections
 - If the Q&A adds material bucket-list evidence, refresh `bucket-list-readiness.md` after updating the dive file.
 - If the dive belongs to a bucket-list destination, the refresh must also update that destination's summary-table row and detailed destination section.
 
+### 4. Trip-costs check-in (dive-focused trips only)
+
+If the dive is part of a **dive-focused trip** that has a `dives/[trip]/costs.md` file (or should have one):
+
+- Before ending the Q&A session, do a quick **costs check-in** in chat to keep trip budgeting current.
+- Ask for any missing categories that commonly get forgotten:
+  - transfers / local transport
+  - equipment rental
+  - insurance / other fees
+  - food / extras
+- If the user provides numbers, update `dives/[trip]/costs.md` (store amounts in **GBP**, converting from other currencies with a stated rate/date).
+- After updating `costs.md`, also update the summary table in `trip-pricing-budget.md` under `### Historical actual costs (dive-focused trips)`.
+
 ## Dive file section
 
 Per-dive files have this section:
