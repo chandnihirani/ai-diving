@@ -1,0 +1,22 @@
+---
+description: Keep README as the human-friendly project explanation
+alwaysApply: true
+---
+
+# README stays current (non-technical narrative)
+
+`README.md` is the **one-page, non-technical explanation** of what this project is and why it matters.
+
+Whenever we add something **new and “tell-a-friend” exciting**, update `README.md` to reflect it, especially when we:
+
+- add a new script/workflow (anything in `scripts/` or `config/`)
+- mark a capability as **✅ Built** in `FEATURES.md`
+- introduce a new proactive / automated feature (e.g., flight search, trip scouting, readiness analytics)
+- materially change how dive data is captured, debriefed, or used for feedback/readiness
+
+## Writing style requirements
+- Write for **non-technical people and divers**
+- Lead with **outcomes** (“feedback loop”, “gaps”, “what to do next”, “where to dive next”)
+- Keep it **one page** and avoid reading like a directory listing
+- Include a short “what I say out loud” explanation that’s easy to repeat
+
