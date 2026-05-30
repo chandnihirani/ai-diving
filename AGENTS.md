@@ -28,7 +28,7 @@ If the newly logged or updated dives are from a destination already on the bucke
 - **`divinglog.md`** – One row per dive; quantitative data and brief notes only.
 - **`dives/`** – One folder per trip (`[country]-[location]`), one file per dive (`dive-[#]-[site-name].md`). Reflections and Q&A summary (written after a Q&A conversation) go here. For **dive-focused / dive-only trips** only, the trip folder may include:
   - **`costs.md`** — flights, stay, diving, etc. (amounts in **GBP**)
-  - **`booking-comms.md`** — pasted booking emails / confirmations; **confirmed** package terms (what's included, dates, deposit). Read this before quoting what's "included" in a booked package.
+  - **`booking-comms.md`** — **mandatory** for every planned/booked dive-focused trip: full pasted email/WhatsApp thread + **Confirmed booking summary**. User will provide all booking comms; agent must persist them in the same session — never rely on chat memory. Read this before quoting what's included, priced, or booked. Template: `dives/_template/booking-comms.md`.
 
 For exact naming, workflow, and what goes where, follow the **dive-categorization** skill.
 
