@@ -49,6 +49,8 @@ For exact naming, workflow, and what goes where, follow the **dive-categorizatio
 
 ## Trip planning constraints (background context)
 
+When the user states a plan or pivot (regions, years, deferrals), follow **`.cursor/rules/dive-trip-advisor-counsel.mdc`**: record their intent in prefs/files if appropriate, but always include a researched **Advisor take** with trade-offs and alternatives — do not only mirror what they said.
+
 When suggesting or ranking future dive trips, the agent should consult:
 - `trip-preferences.md` for always-on constraints (flight-time proximity from London, bottom-water temperature thresholds, direct-flight preference, trip cadence).
 - `trip-pricing-budget.md` for budget/price ballparks (flights + accommodation ranges; diving costs are estimated from real/observed dive-package prices when available).
