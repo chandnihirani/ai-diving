@@ -49,7 +49,7 @@ For exact naming, workflow, and what goes where, follow the **dive-categorizatio
 
 ## Trip planning constraints (background context)
 
-When the user states a plan or pivot (regions, years, deferrals), follow **`.cursor/rules/dive-trip-advisor-counsel.mdc`**: record their intent in prefs/files if appropriate, but always include a researched **Advisor take** with trade-offs and alternatives — do not only mirror what they said.
+When the user **asks for judgment** on a plan (e.g. “thoughts”, “what do you think”, “other ideas”), follow **`.cursor/rules/dive-trip-advisor-counsel.mdc`** for a full **Advisor take** with trade-offs and alternatives. If they only state a plan without asking, record it efficiently; reserve full counsel for those invitations (brief conflict note only when a statement contradicts a booked trip or hard constraint).
 
 When suggesting or ranking future dive trips, the agent should consult:
 - `trip-preferences.md` for always-on constraints (flight-time proximity from London, bottom-water temperature thresholds, direct-flight preference, trip cadence).
