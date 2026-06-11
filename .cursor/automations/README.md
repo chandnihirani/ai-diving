@@ -8,7 +8,7 @@
 
 **Files updated when something fires:** `diver-milestones.md` (`reminder_state` + evaluation log). No automatic git commit.
 
-**Telegram:** After each run, the agent sends the summary to your Telegram via `scripts/send-telegram.sh` (see below).
+**Telegram:** Fun **dive-buddy digest** (not an audit). Validated by `scripts/validate-milestone-nudge.sh` before `send-telegram.sh` — rejects dry “No milestones due / reminder_state” messages. **Turn memory OFF** on this automation. If messages still look like a textbook, re-paste instructions from `diving-milestone-check.prompt.md` in the Automations editor. Format + gold-standard example in that file.
 
 ### Telegram setup (one-time)
 
@@ -35,7 +35,7 @@
    - **Repository:** attach this `diving_project` repo (required to read `divinglog.md` and run the send script)
    - **Instructions:** use `diving-milestone-check.prompt.md` or the `prompts` block in the JSON
    - **Tools:** optional extras only (Slack, MCP, etc.) — terminal is included by default on cloud agents; there is no separate “Shell” toggle
-3. Enable **memory** if you want (optional).
+3. **Memory: OFF** for this automation (Settings / Agent options → turn **Memory** off). Memory tends to lock in the old dry audit format.
 4. **Save** and **Enable** / **Activate**.
 
 ### Prefill handoff
