@@ -4,13 +4,16 @@
 set -euo pipefail
 
 ENV_FILE="${TELEGRAM_ENV_FILE:-$HOME/.config/diving-telegram.env}"
-if [[ -f "$ENV_FILE" ]]; then
-  # shellcheck source=/dev/null
-  source "$ENV_FILE"
-fi
+WORKSPACE_ENV=".cursor/telegram.env"
+for f in "$WORKSPACE_ENV" "$ENV_FILE"; do
+  if [[ -f "$f" ]]; then
+    # shellcheck source=/dev/null
+    source "$f"
+  fi
+done
 
 if [[ -z "${TELEGRAM_BOT_TOKEN:-}" || -z "${TELEGRAM_CHAT_ID:-}" ]]; then
-  echo "Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in $ENV_FILE or Cursor Cloud Agents → Secrets." >&2
+  echo "Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID in Cloud Environment secrets, $WORKSPACE_ENV, or $ENV_FILE." >&2
   exit 1
 fi
 
