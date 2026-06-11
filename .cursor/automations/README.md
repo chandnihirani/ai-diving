@@ -8,17 +8,35 @@
 
 **Files updated when something fires:** `diver-milestones.md` (`reminder_state` + evaluation log). No automatic git commit.
 
+**Telegram:** After each run, the agent sends the summary to your Telegram via `scripts/send-telegram.sh` (see below).
+
+### Telegram setup (one-time)
+
+1. Create a bot with **@BotFather**; revoke the token if you ever pasted it in chat.
+2. Get your **chat ID** (e.g. **@getmyid_bot** in the Telegram app).
+3. Create `~/.config/diving-telegram.env` (not in this repo):
+
+   ```bash
+   TELEGRAM_BOT_TOKEN=your_token_here
+   TELEGRAM_CHAT_ID=your_id_here
+   ```
+
+4. **Also add secrets for cloud runs** (automations run on Cursor’s cloud VM, not your Mac):
+   - Open [cursor.com/dashboard](https://cursor.com/dashboard) → **Cloud Agents** → **Secrets**
+   - Add `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` (Runtime Secret)
+5. **Test** with **Run now** on the automation (cloud can reach Telegram even when your home network blocks `api.telegram.org`).
+
 ### Setup in Cursor
 
-1. Open **Agents** → **Automations** → **New automation** (or ask the agent in the **Agents Window** to open the editor with the draft).
-2. Import or paste from **`diving-milestone-check.workflow.json`** in this folder, or copy fields manually:
-   - **Name:** Diving milestone check
-   - **Trigger:** Schedule → monthly, 1st, 9:00 (set your timezone in the UI)
-   - **Tools:** none required (workspace file read/write only)
+1. Open the **Agents** sidebar (left) → **Automations** tab  
+   Or go to [cursor.com/automations](https://cursor.com/automations)
+2. Open **Diving milestone check** (or create from **`diving-milestone-check.workflow.json`**):
+   - **Trigger:** Schedule → monthly, 1st, 9:00 (UK timezone)
+   - **Repository:** attach this `diving_project` repo (required to read `divinglog.md` and run the send script)
    - **Instructions:** use `diving-milestone-check.prompt.md` or the `prompts` block in the JSON
-3. Point the automation at **this workspace** (`diving_project`). Cloud runs need the folder available to the agent (local workspace automation or a synced copy of the repo).
-4. Enable **memory** if you want the automation to remember prior run context (optional).
-5. Save and enable.
+   - **Tools:** optional extras only (Slack, MCP, etc.) — terminal is included by default on cloud agents; there is no separate “Shell” toggle
+3. Enable **memory** if you want (optional).
+4. **Save** and **Enable** / **Activate**.
 
 ### Prefill handoff
 

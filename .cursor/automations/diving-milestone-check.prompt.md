@@ -13,6 +13,9 @@ You are maintaining the **personal diving project** in this workspace.
    - Update `reminder_state` with `last_fired` (today) and `last_dive_count_at_fire` if relevant.
    - Append one row to the **Evaluation log** table in `diver-milestones.md`.
 7. **Do not git-commit** unless the automation run explicitly includes a user instruction to commit.
+8. **Telegram delivery:** Write your full reply (same text as below) to `.cursor/automations/last-milestone-nudge.txt`, then run:
+   `bash scripts/send-telegram.sh --file .cursor/automations/last-milestone-nudge.txt`
+   If the send fails (e.g. network), note the error in the automation output but still complete the milestone evaluation.
 
 ## Reply format
 
