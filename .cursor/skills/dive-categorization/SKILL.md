@@ -18,10 +18,15 @@ Route all dive-related input into the project's folder structure. Use this skill
 - Full dive details, reflections, Q&A summary (written after a Q&A conversation—see dive-qa skill), self-ratings, challenges, media links.
 - One file per dive. Create the trip folder if it does not exist.
 
-**Trip-level costs → `dives/[trip]/costs.md` (optional; dive-focused trips only)**
-- Use for **dive-only / dive-focused trips** where tracking full-trip spend matters for budgeting. Do **not** add for general holidays with only incidental diving (e.g. one dive day).
-- Contents: flights, accommodation, diving packages, transfers, rental, other. **All amounts in GBP:** if the user gives EUR/USD/etc., convert to GBP (state the rate and date used in the file), and optionally retain originals in a short conversion note.
-- Create when the user asks to log costs or starts a new dive-focused trip; do not put detailed cost ledgers in `divinglog.md`.
+**Trip-level booking & costs (dive-focused trips only)**
+
+Do **not** add for general holidays with only incidental diving (e.g. one dive day).
+
+- **`dives/[trip]/booking-comms.md`** — **required** when user plans or books a dive-focused trip and shares emails/WhatsApp/confirmations. Paste thread + maintain **Confirmed booking summary** at top. Template: `dives/_template/booking-comms.md`. Same session as paste — do not leave comms in chat only.
+- **`dives/[trip]/costs.md`** — flights, accommodation, diving packages, transfers, rental, other. **All amounts in GBP** (convert EUR/USD with rate/date noted). Extract from booking comms when user provides them.
+- Optional: **`[centre]-package.md`** — dive package detail; confirmed email facts override website copy.
+
+Create trip folder + `booking-comms.md` + `costs.md` when user starts planning/booking a dive-focused trip. Do not put cost ledgers in `divinglog.md`.
 
 ## Naming
 
@@ -44,5 +49,6 @@ Route all dive-related input into the project's folder structure. Use this skill
    - the top summary table row for that destination
    - the matching destination section under `## Bucket list destinations`
    Mark the destination as `✅` when the user has now done a meaningful version of it, or `🟠` if the experience should still count as partial only.
+9. **Milestone reminders:** Recompute dive count; run checks in **`diver-milestones.md`** per **`.cursor/rules/diver-milestone-reminders.mdc`** (e.g. Rescue at 40, 9-month bucket stale, 25-dive gate, rust, Nitrox overdue). Respect dismiss/snooze in `reminder_state`; log fires in the evaluation table.
 
 Summary table stays minimal; all detail lives in the per-dive files.

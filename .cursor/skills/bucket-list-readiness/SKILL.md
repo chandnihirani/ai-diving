@@ -73,6 +73,7 @@ When the user logs new dives from a destination that is already in `bucket-list-
    - whether the destination is now done / partial / not yet
    - what kind of version they have done so far
    - what remains if they have only partially completed it
+7. When **Done** is set to **✅**, update `last_meaningful_bucket_done` in `diver-milestones.md` (same session).
 
 ## Response format
 

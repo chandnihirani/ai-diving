@@ -1,0 +1,40 @@
+---
+description: Proactive milestone reminders (Rescue at 40 dives, 9-month bucket list stale, etc.)
+alwaysApply: true
+---
+
+# Diver milestone reminders
+
+After **logging or updating dives** in `divinglog.md`, **finishing dive Q&A on a trip batch**, **updating `diver-status.md` certifications**, **setting bucket-list Done to ✅**, or when the **monthly diving-milestone automation** runs, evaluate triggers in **`diver-milestones.md`** (registry + `reminder_state`).
+
+## How to evaluate
+
+1. **Recompute** dive count from `divinglog.md` table rows; **last dive date** from the newest row.
+2. Read **`diver-status.md`** YAML for certifications (`obtained`, `expected_by`).
+3. Read **`bucket-list-readiness.md`** Done column: any **✅**? Update `last_meaningful_bucket_done` in `diver-milestones.md` when you add or confirm a ✅ (use today's date if the trip completion date is unknown).
+4. For each **enabled** milestone in `diver-milestones.md`, check trigger vs current state.
+5. **Respect `reminder_state`:** skip if `dismissed: true` or `snoozed_until` is in the future. After firing, set `last_fired` and optional `last_dive_count_at_fire`; append a row to the evaluation log table.
+6. **Cap noise (chat sessions only):** at most **2** proactive milestone blocks per session. Prefer Rescue at 40 > bucket list stale 9m > Nitrox overdue > rust > others. **Automation runs** may list all due items in one summary.
+
+## Must-fire cases (when not dismissed/snoozed)
+
+| ID | Condition |
+|----|-----------|
+| `rescue_diver_at_40` | Dive count ≥ 40 and Rescue Diver not `obtained: true` in `diver-status.md` |
+| `bucket_list_stale_9m` | ≥ 9 months since `last_meaningful_bucket_done`, or since `bucket_list_tracking_start` if never ✅ |
+| `nitrox_overdue` | Nitrox `obtained: false` and today > `expected_by` + 14 days |
+| `dives_rust_6m` | ≥ 6 months since last dive row in `divinglog.md` |
+| `twentyfive_dive_gate` | Fire once when count crosses **25** (use `last_dive_count_at_fire` to avoid repeat) |
+| `computer_rental_40` | Count ≥ 40 and `equipment-inventory.md` still default-rent computer + purchase intent |
+
+Use the **message** and **actions** from the milestone entry. Keep reminders **short** (3–6 sentences) unless the user asks for detail.
+
+## User controls
+
+If the user says **dismiss**, **snooze N months**, or **already have Rescue/Nitrox**: update `reminder_state` and `diver-status.md` in the same session — do not rely on chat memory.
+
+## Wiring
+
+- **dive-categorization** skill: run this check as the last step after bucket-list refresh when dives were added.
+- **bucket-list-readiness** skill: when Done becomes ✅, update `last_meaningful_bucket_done` then re-evaluate.
+- **Cursor Automation:** `.cursor/automations/diving-milestone-check.workflow.json` — monthly scheduled pass; do not git-commit unless the user explicitly asked in that run.

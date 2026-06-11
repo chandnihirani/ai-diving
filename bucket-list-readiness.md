@@ -1,41 +1,41 @@
 ## Bucket List Readiness
 
-Last updated: 2026-04-16
+Last updated: 2026-06-04
 
 ## Bucket list summary
 
-Use this table to track completion at a glance. The `Environment` column is a compact tag for the main style of diving each destination represents. Readiness is kept to a simple 3-tier scale for quick scanning.
+Use this table to track completion at a glance. The `Environment` column is a compact tag for the main style of diving each destination represents. Readiness is kept to a simple 3-tier scale for quick scanning. **Country or territory** is in parentheses when the site name alone is not obvious (e.g. Truk Lagoon, Scapa Flow, Malpelo).
 
 | Destination | Environment | Done | Readiness |
 |---|---|---|---|
 | Maldives | Reef / current / pelagic |  | <span style="color:#2aa198;">Near-term</span> |
-| Raja Ampat | Reef / current / pelagic |  | <span style="color:#a35a00;">Mid-term</span> |
+| Raja Ampat (Indonesia) | Reef / current / pelagic |  | <span style="color:#a35a00;">Mid-term</span> |
 | Philippines (Moalboal / Malapascua / similar) | Reef / current / pelagic |  | <span style="color:#2aa198;">Near-term</span> |
 | Fiji (Rainbow Reef / Somosomo Strait) | Reef / current / pelagic |  | <span style="color:#2aa198;">Near-term</span> |
-| Komodo | Reef / current / pelagic | 🟠 | <span style="color:#a35a00;">Mid-term</span> |
-| Sipadan | Reef / current / pelagic |  | <span style="color:#2aa198;">Near-term</span> |
-| Red Sea Liveaboard (Brothers / Daedalus / Elphinstone style) | Reef / current / pelagic |  | <span style="color:#a35a00;">Mid-term</span> |
+| Komodo (Indonesia) | Reef / current / pelagic | 🟠 | <span style="color:#a35a00;">Mid-term</span> |
+| Sipadan (Malaysia) | Reef / current / pelagic |  | <span style="color:#2aa198;">Near-term</span> |
+| Red Sea liveaboard — Brothers / Daedalus / Elphinstone (Egypt) | Reef / current / pelagic |  | <span style="color:#a35a00;">Mid-term</span> |
 | Palau | Reef / current / pelagic |  | <span style="color:#a35a00;">Mid-term</span> |
-| Socorro | Reef / current / pelagic |  | <span style="color:#dc322f;">Longer-term</span> |
-| Galapagos | Reef / current / pelagic |  | <span style="color:#dc322f;">Longer-term</span> |
-| Great Barrier Reef | Reef / current / pelagic |  | <span style="color:#2aa198;">Near-term</span> |
-| Cocos Island | Reef / current / pelagic |  | <span style="color:#dc322f;">Longer-term</span> |
+| Socorro (Mexico) | Reef / current / pelagic |  | <span style="color:#dc322f;">Longer-term</span> |
+| Galapagos (Ecuador) | Reef / current / pelagic |  | <span style="color:#dc322f;">Longer-term</span> |
+| Great Barrier Reef (Australia) | Reef / current / pelagic |  | <span style="color:#2aa198;">Near-term</span> |
+| Cocos Island (Costa Rica) | Reef / current / pelagic |  | <span style="color:#dc322f;">Longer-term</span> |
 | French Polynesia (Fakarava / Rangiroa) | Reef / current / pelagic |  | <span style="color:#a35a00;">Mid-term</span> |
-| Tubbataha Reefs | Reef / current / pelagic |  | <span style="color:#a35a00;">Mid-term</span> |
-| Cabo Pulmo / Baja liveaboard | Reef / current / pelagic |  | <span style="color:#a35a00;">Mid-term</span> |
-| Jardines de la Reina | Reef / current / pelagic |  | <span style="color:#a35a00;">Mid-term</span> |
-| Malpelo | Reef / current / pelagic |  | <span style="color:#dc322f;">Longer-term</span> |
-| Truk Lagoon | Wreck |  | <span style="color:#dc322f;">Longer-term</span> |
-| Scapa Flow | Wreck |  | <span style="color:#dc322f;">Longer-term</span> |
-| SS Yongala | Wreck |  | <span style="color:#a35a00;">Mid-term</span> |
-| Zenobia | Wreck |  | <span style="color:#2aa198;">Near-term</span> |
-| Thistlegorm | Wreck |  | <span style="color:#a35a00;">Mid-term</span> |
-| Coron | Wreck |  | <span style="color:#a35a00;">Mid-term</span> |
+| Tubbataha Reefs (Philippines) | Reef / current / pelagic |  | <span style="color:#a35a00;">Mid-term</span> |
+| Cabo Pulmo / Baja liveaboard (Mexico) | Reef / current / pelagic |  | <span style="color:#a35a00;">Mid-term</span> |
+| Jardines de la Reina (Cuba) | Reef / current / pelagic |  | <span style="color:#a35a00;">Mid-term</span> |
+| Malpelo (Colombia) | Reef / current / pelagic |  | <span style="color:#dc322f;">Longer-term</span> |
+| Truk Lagoon (Micronesia) | Wreck |  | <span style="color:#dc322f;">Longer-term</span> |
+| Scapa Flow (Scotland, UK) | Wreck |  | <span style="color:#dc322f;">Longer-term</span> |
+| SS Yongala (Australia) | Wreck |  | <span style="color:#a35a00;">Mid-term</span> |
+| Zenobia (Cyprus) | Wreck |  | <span style="color:#2aa198;">Near-term</span> |
+| Thistlegorm (Egypt) | Wreck |  | <span style="color:#a35a00;">Mid-term</span> |
+| Coron (Philippines) | Wreck |  | <span style="color:#a35a00;">Mid-term</span> |
 | Mexican Cenotes (Yucatan) | Cenote / cavern |  | <span style="color:#2aa198;">Near-term</span> |
-| Lembeh Strait | Macro / muck |  | <span style="color:#2aa198;">Near-term</span> |
-| Anilao | Macro / muck |  | <span style="color:#2aa198;">Near-term</span> |
-| Silfra | Cold / temperate |  | <span style="color:#a35a00;">Mid-term</span> |
-| Kelp Forests (California / Channel Islands) | Cold / temperate |  | <span style="color:#a35a00;">Mid-term</span> |
+| Lembeh Strait (Indonesia) | Macro / muck |  | <span style="color:#2aa198;">Near-term</span> |
+| Anilao (Philippines) | Macro / muck |  | <span style="color:#2aa198;">Near-term</span> |
+| Silfra (Iceland) | Cold / temperate |  | <span style="color:#a35a00;">Mid-term</span> |
+| Kelp forests — California / Channel Islands (USA) | Cold / temperate |  | <span style="color:#a35a00;">Mid-term</span> |
 
 ## Current snapshot
 
@@ -295,6 +295,7 @@ This list is intentionally expandable. It is not capped at 10 if there are other
 
 ### 17. Malpelo - Colombia
 
+- Where: remote **island** ~500 km off Colombia’s Pacific coast (liveaboard-only; not a mainland resort trip).
 - Why it is here: one of the hardest-core big-animal bucket-list destinations on earth, famous for sharks, blue water, current, and exposed ocean conditions.
 - Typical readiness target:
   - **AOW minimum; Rescue desirable**
@@ -308,6 +309,7 @@ This list is intentionally expandable. It is not capped at 10 if there are other
 
 ### 18. Truk Lagoon - Micronesia
 
+- Where: **Chuuk Lagoon**, Chuuk State, **Federated States of Micronesia** (central Pacific; often called Chuuk; “Truk” is the WWII-era name).
 - Why it is here: one of the most famous wreck-diving destinations on earth, with an unmatched concentration of historic WWII wrecks.
 - Typical readiness target:
   - **AOW**
@@ -320,6 +322,7 @@ This list is intentionally expandable. It is not capped at 10 if there are other
 
 ### 19. Scapa Flow - Scotland
 
+- Where: sheltered anchorage in the **Orkney Islands**, **Scotland, UK** (North Sea; scuttled German fleet and other famous wrecks).
 - Why it is here: one of the world's classic historic wreck destinations, especially for serious wreck enthusiasts and colder-water diving progression.
 - Typical readiness target:
   - **AOW minimum; Drysuit strongly preferred**
@@ -448,9 +451,9 @@ Examples:
 
 Based on the log as it stands today:
 
-- **Near-term:** Philippines, Maldives, Fiji, Sipadan, Great Barrier Reef, Zenobia, Mexican Cenotes, Lembeh, Anilao
-- **Mid-term:** Komodo, Raja Ampat, Palau, French Polynesia, Tubbataha, Red Sea liveaboard, Cabo Pulmo / Baja, Jardines de la Reina, SS Yongala, Thistlegorm, Coron, Silfra, Kelp Forests
-- **Longer-term:** Socorro, Galapagos, Cocos Island, Malpelo, Truk Lagoon, Scapa Flow
+- **Near-term:** Philippines, Maldives, Fiji, Sipadan (Malaysia), Great Barrier Reef (Australia), Zenobia (Cyprus), Mexican Cenotes, Lembeh (Indonesia), Anilao (Philippines)
+- **Mid-term:** Komodo (Indonesia), Raja Ampat (Indonesia), Palau, French Polynesia, Tubbataha (Philippines), Red Sea liveaboard (Egypt), Cabo Pulmo / Baja (Mexico), Jardines de la Reina (Cuba), SS Yongala (Australia), Thistlegorm (Egypt), Coron (Philippines), Silfra (Iceland), kelp forests (USA)
+- **Longer-term:** Socorro (Mexico), Galapagos (Ecuador), Cocos Island (Costa Rica), Malpelo (Colombia), Truk Lagoon (Micronesia), Scapa Flow (Scotland, UK)
 
 ## Notes
 

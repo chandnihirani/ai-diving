@@ -1,0 +1,50 @@
+---
+description: Archive all dive-trip booking emails/comms to trip folder files — never chat-only
+alwaysApply: true
+---
+
+# Dive trip booking communications (mandatory storage)
+
+The user will paste **booking emails**, **WhatsApp threads**, and **confirmations** for every dive-focused trip they plan. **Chat is not memory.** Persist everything to disk in the same workflow — do not wait to be asked.
+
+## When this applies
+
+- User shares booking/planning comms for a **dive-focused trip** (centre quotes, confirmations, changes, invoices).
+- User says a trip is **booked** or **planned** with a dive centre / hotel / flights.
+- User references “the emails I sent” — read `dives/[trip]/booking-comms.md` first; if missing, ask once to paste, then store.
+
+Skip for general holidays with only incidental diving (no dive-focused trip folder).
+
+## Required files per dive-focused trip
+
+Create or update under `dives/[country]-[location]/`:
+
+| File | Purpose |
+|------|---------|
+| **`booking-comms.md`** | Full pasted thread + **Confirmed booking summary** (source of truth for what's included) |
+| **`costs.md`** | Line items in **GBP** (extract from comms; FX rate noted) |
+| **`[centre]-package.md`** | Optional — dive package / centre detail when useful (confirmed facts override website copy) |
+
+Use template: `dives/_template/booking-comms.md` for new trips.
+
+## Workflow (same session as paste)
+
+1. **Identify trip** → folder name per dive-categorization skill (e.g. `malta-mellieha`, `egypt-sharm`).
+2. **Append** to `booking-comms.md` — dated sections, newest first; preserve sender/subject/date when visible.
+3. **Update Confirmed booking summary** at top: centre, package, dates, inclusions/exclusions, deposit/balance, pickup, cancellation, contact.
+4. **Extract costs** → `costs.md` (GBP); sync **`trip-pricing-budget.md`** historical table (see `dive-trip-costs-sync` rule).
+5. **Update package doc** if present — replace “confirm with centre” / website guesses with confirmed email facts.
+6. **Never** substitute web-scraping for the user's booking thread when they have (or will) provide comms.
+
+## Confirmed summary must capture (when present in emails)
+
+- Dive package name, dive count, shore/boat split, course dives (Nitrox etc.)
+- **Equipment hire** included or extra; computer rental
+- Nitrox rules (course dives in pack? free fills after cert?)
+- Hotel / flights (names, dates, cancellation)
+- Transfers, pickup areas, meeting times
+- Balance due, payment method, deposit paid
+
+## Before answering trip questions
+
+Read **`booking-comms.md`** and **`costs.md`** for that trip before stating what's included, priced, or booked.

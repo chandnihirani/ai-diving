@@ -1,6 +1,6 @@
 ## Trip Preferences (always-on constraints)
 
-Last updated: 2026-03-23
+Last updated: 2026-06-01
 
 This file defines the rules the agent should treat as “hard” filters vs “preferences” when suggesting dive trips.
 
@@ -38,6 +38,35 @@ flight_constraints_europe:
 long_haul_preferences:
   max_long_haul_trips_per_year: 1
   style_preference: ["liveaboard", "exotic/long-distance one-off"]
+
+# Treat like Europe for trip planning (direct budget flights, ~5–5.5h from London).
+red_sea_egypt:
+  planning_tier: "europe_equivalent"
+  notes: "Sharm/Hurghada — easyJet/TUI direct; not counted against long-haul/exotic slot."
+  resort_week_planned: "2026-09"  # Sharm — northern classics + Thistlegorm; see dives/egypt-sharm/planning.md
+
+# After Sep 2026 Sharm: pause further Red Sea trips 1–2 years; next Egypt dive should be Brothers-style liveaboard (~2028+).
+red_sea_next:
+  format: "liveaboard"
+  focus: ["Brothers", "Daedalus", "Elphinstone"]
+  defer_until: "2028"
+  reason: "2026 Sharm covers northern resort + Thistlegorm; 2027 focus Caribbean & Asia; avoid Red Sea fatigue/repeat."
+
+region_focus_2027:
+  priority: ["Caribbean", "Asia"]
+  deprioritize: ["Red Sea", "Egypt", "Med repeat hops"]
+  notes: "Unless user explicitly reopens a region."
+
+destinations_deferred:
+  cyprus:
+    defer_until: "2027"
+    reason: "Med culture/overlap with Malta; Sicily holiday 2026 without diving — save Zenobia for next year."
+  red_sea_liveaboard:
+    defer_until: "2028"
+    reason: "Sharm Sep 2026 first; Brothers/Daedalus/Elphinstone liveaboard after 1–2 year Red Sea break and readiness."
+  red_sea_resort_return:
+    defer_until: "2028"
+    reason: "One northern Red Sea resort week in 2026; Hurghada/Sharm repeat not planned before Caribbean/Asia 2027."
 ```
 
 ### Notes / intent (human-readable)
@@ -51,4 +80,7 @@ long_haul_preferences:
   - ask you for confirmation, or
   - prefer destinations where the typical diving season is well documented.
 - Europe trips should be **direct-flight only** from London (where feasible), and should prioritize low-cost airlines.
+- **Egypt (Red Sea — Sharm/Hurghada):** treat as **Europe-equivalent** for planning: direct budget flights (~5–5.5 h), same trip style as Med hops — **not** the annual long-haul/exotic slot (that stays for Kenya-style trips).
+- **Cyprus:** defer to **2027** unless you explicitly reopen it — Med overlap with Malta + recent Sicily holiday makes it feel repetitive for 2026.
+- **Red Sea / Egypt:** **Sep 2026 Sharm** is the planned **northern resort + Thistlegorm** trip. Then **1–2 year pause** on Red Sea — do **not** suggest Hurghada/Sharm again until **~2028** unless you reopen. **2027** trip ideas should lean **Caribbean** and **Asia** (long-haul slot). Next Red Sea dive should be **Brothers / Daedalus / Elphinstone liveaboard**, not another 10-dive resort pack.
 

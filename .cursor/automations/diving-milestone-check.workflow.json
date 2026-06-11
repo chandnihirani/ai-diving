@@ -1,0 +1,24 @@
+{
+  "name": "Diving milestone check",
+  "description": "Monthly check for Rescue at 40 dives, 9-month bucket-list stale, Nitrox overdue, rust, and other triggers in diver-milestones.md.",
+  "workflow": {
+    "triggers": [
+      {
+        "cron": {
+          "cron": "0 9 1 * *"
+        }
+      }
+    ],
+    "actions": [],
+    "prompts": [
+      {
+        "prompt": "You are maintaining the personal diving project in this workspace.\n\n1. Read diver-milestones.md and .cursor/rules/diver-milestone-reminders.mdc.\n2. Recompute dive count from divinglog.md table rows; last dive date from the newest row.\n3. Read diver-status.md, bucket-list-readiness.md, equipment-inventory.md as needed.\n4. Evaluate each enabled milestone; respect reminder_state (dismissed, snoozed_until).\n5. If a milestone fires: update reminder_state (last_fired, last_dive_count_at_fire), append a row to the evaluation log in diver-milestones.md.\n6. Do not git-commit unless explicitly instructed in this run.\n\nReply must start with \"Diving milestones\". If none due: \"No milestones due this run.\" Otherwise one short section per fired milestone (3-6 sentences) using messages from diver-milestones.md. For bucket_list_stale_9m, suggest 2-3 Near-term destinations after reading trip-preferences.md and trip-pricing-budget.md. End with what you changed in diver-milestones.md.\n\nFull prompt reference: .cursor/automations/diving-milestone-check.prompt.md"
+      }
+    ],
+    "model": "",
+    "agentOptions": {
+      "skipInstall": false
+    },
+    "memoryEnabled": true
+  }
+}

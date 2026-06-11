@@ -13,6 +13,8 @@ The skill defines where every piece of information goes: summary table vs detail
 
 After logging a dive or finishing dive Q&A, if the new information materially affects readiness evidence (e.g. dive count, Nitrox, SMB deployment, drift/current comfort, buoyancy/trim, reef hook, negative entry, blue-water comfort, boat/liveaboard comfort), refresh `bucket-list-readiness.md`.
 
+After logging dives or updating certifications, evaluate **proactive milestone reminders** per `diver-milestones.md` and `.cursor/rules/diver-milestone-reminders.mdc` (e.g. Rescue at 40 dives, bucket-list stale 9 months without a ✅). A **monthly Cursor Automation** also runs the same checks — see `.cursor/automations/README.md`.
+
 If the newly logged or updated dives are from a destination already on the bucket list (e.g. Maldives, Raja Ampat, Komodo, Fiji), the refresh must update both:
 - the top summary table row for that destination, including `Done` status (`✅` for meaningful completion, `🟠` for partial-only exposure)
 - the detailed section for that destination under `## Bucket list destinations`

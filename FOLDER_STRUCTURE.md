@@ -3,7 +3,7 @@
 ### Overview
 
 - **`divinglog.md`** = High-level summary table only (one row per dive)
-- **`dives/`** = Detailed reflection files (one file per dive). Optional **`costs.md`** only for **dive-focused trips** (actual spend); not used for general holidays with incidental diving.
+- **`dives/`** = Detailed reflection files (one file per dive). For **dive-focused trips** only: **`booking-comms.md`** (emails/confirmations), **`costs.md`** (GBP spend). Not used for general holidays with incidental diving.
 
 ---
 
@@ -45,10 +45,21 @@ diving_project/
     │   ├── dive-[#]-[site-name].md
     │   └── ...
     │
-    └── malta-mellieha/             # Trip: Malta, Mellieha (dive-focused) - upcoming
-        ├── costs.md                # Dive-only trip cost log
+    └── malta-mellieha/             # Trip: Malta, Mellieha (dive-focused) - Jul 2026
+        ├── booking-comms.md        # Seashell emails + confirmed booking summary
+        ├── costs.md                # Dive-only trip cost log (GBP)
+        ├── seashell-package.md     # Centre/package reference
         ├── dive-[#]-[site-name].md
         └── ...
+    
+    └── egypt-sharm/                # Trip: Egypt, Sharm (planning — Sep 2026)
+        ├── planning.md             # Target shape, sites, questions for centres
+        ├── booking-comms.md        # Centre emails (paste as you enquire)
+        ├── costs.md                # Cost log (GBP) when quoted/booked
+        └── dive-[#]-[site-name].md # Created after dives
+    
+    └── _template/                  # Copy booking-comms.md for new dive-focused trips
+        └── booking-comms.md
 ```
 
 ---
@@ -69,8 +80,12 @@ diving_project/
 - Brief wildlife/notes summary (1–2 sentences max)
 - Links to detailed reflection files
 
+**`dives/[trip]/booking-comms.md` (dive-focused trips only):**
+- Full pasted booking email/WhatsApp thread (newest first) + **Confirmed booking summary** table at top.
+- Source of truth for what's included (equipment, Nitrox, dates, deposit). Agent must update in the same session when user pastes comms.
+
 **`dives/[trip]/costs.md` (trip spend, dive-focused trips only):**
-- **All figures in GBP**; convert from other currencies and record the rate used. Flights, accommodation, diving, transfers, rental, other; optional £/night or £/dive for comparison. Omit for trips that are mainly a general holiday with only incidental diving. Not duplicated in `divinglog.md`.
+- **All figures in GBP**; convert from other currencies and record the rate used. Flights, accommodation, diving, transfers, rental, other; optional £/night or £/dive for comparison. Extract from `booking-comms.md` when available. Omit for trips that are mainly a general holiday with only incidental diving. Not duplicated in `divinglog.md`.
 
 **`dives/[trip]/dive-[#]-[site].md` (detailed reflections):**
 - Full PADI log data (if not in summary)

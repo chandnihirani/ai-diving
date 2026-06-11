@@ -47,27 +47,27 @@ Your editor/preview should wrap long cell text, and you can scroll horizontally 
 | 14 | 15 Mar 2026 | Kenya     | Diani   | Alpha Funguo Reef  | Training – AOW Adventure Dive (Deep)     | 31 | 31 | Salt | Ocean | Sunny |  |  | 26 |  | Average | Medium |  | Small | Shorty | 6 | Good | Aluminium |  | Air |  |  | Diani Marine Divers | Rashid | Deep dive test: color palette (red/yellow gone), math at 31 m—did well; excellent buoyancy (kneeled on sand, stable); 2 stingrays during test; narcosis check—clear thinking. | [→](dives/kenya-diani/dive-14-alpha-funguo-reef.md) |
 | 15 | 15 Mar 2026 | Kenya     | Diani   | Nick's Place       | Recreational                              | 18 | 48 | Salt | Ocean | Sunny |  |  | 26 |  | Average |  |  |  | Shorty | 6 | Good | Aluminium |  | Air |  |  | Diani Marine Divers |  | Shoals of fish (yellow, orange, grey); 2 turtles; possible sea snake; practiced buoyancy + trim while filming; felt perfect—proud, excited. | [→](dives/kenya-diani/dive-15-nicks-place.md) |
 
-As we add more dives (Kenya, Sicily, Malta), we'll extend this table with new rows.
+As we add more dives (Malta next, then others), we'll extend this table with new rows. Sicily 2026 was a holiday — no dives logged there.
 
 ---
 
-### 3. Current profile assessment (from your 9 dives)
+### 3. Current profile assessment (from your 15 logged dives)
 
 **What your history shows:**
 
-- **Depth range**: 8–21m (mostly shallow to mid-depth; you've touched 18m at Sudamala and Pillars of Hercules)
-- **Environments**: All warm-water reef dives (Indonesia, Turkey, Antigua)
-- **Conditions**: Mostly calm (no current or light current, no waves or small waves, average viz)
-- **Exposure**: Mix of 3mm (training), 5mm (Turkey), and shorty (Antigua) – all warm water
+- **Depth range**: 8–31 m (AOW deep to 31 m at Alpha Funguo Reef)
+- **Environments**: Warm-water reef dives (Indonesia, Turkey, Antigua, Kenya); one wreck (Alpha Funguo)
+- **Conditions**: Mostly calm to light current; drift intro at Shark Alley; SMB practiced
+- **Exposure**: Mix of 3 mm, 5 mm, and shorty — all warm water so far
 - **Experience variety**: 
-  - ✅ Reefs, walls, some swim-throughs (tunnel at Black's Point)
+  - ✅ Reefs, walls, swim-throughs (tunnel at Black's Point)
   - ✅ Variety of marine life (turtles, mantas, sharks, rays, eels, etc.)
-  - ✅ Touched 18m depth range (Sudamala, Pillars of Hercules)
+  - ✅ Wreck dive (Alpha Funguo – AOW)
+  - ✅ Deep to 31 m (AOW)
+  - ✅ Navigation & drift (AOW)
   - ❌ No night dives yet
-  - ✅ Wreck dive (Alpha Funguo Wreck – AOW)
-  - ❌ No deeper dives (20–30m range) yet
-  - ❌ No cooler water experience yet
-  - ❌ No stronger current experience yet
+  - ❌ No cooler water experience yet (Malta Jul 2026 planned)
+  - ❌ Limited stronger current experience yet
 
 **Skills observations:**
 - Weighting seems consistent (5–6kg range) but you noted needing to adjust mid-dive at Nanton Point
@@ -78,9 +78,9 @@ As we add more dives (Kenya, Sicily, Malta), we'll extend this table with new ro
 1. **Night diving** (AOW adventure dive option)
 2. **Deeper dives** (18–30m range – AOW deep dive)
 3. **Navigation** (AOW adventure dive option)
-4. **Cooler water** (will come with Sicily/Malta)
-5. **Wrecks** (will come with Malta)
-6. **Caverns/caves** (will come with Sicily/Malta)
+4. **Cooler water** (Malta Jul 2026)
+5. **More wrecks / caverns** (Malta Jul 2026)
+6. **Night diving** (optional on future trips)
 
 ---
 

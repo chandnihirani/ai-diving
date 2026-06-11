@@ -18,3 +18,5 @@ When new dive logging or dive Q&A adds material readiness evidence, refresh `buc
 Do not treat Raja Ampat as a separate readiness system unless the user explicitly asks for a Raja-Ampat-only view.
 
 For dives that took place at a bucket-list destination, update the summary row and destination section in the same workflow after logging and Q&A.
+
+When **Done** becomes **✅**, set `last_meaningful_bucket_done` (and destination name) in `diver-milestones.md` the same session.

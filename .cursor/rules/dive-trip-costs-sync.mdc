@@ -1,3 +1,8 @@
+---
+description: Keep dive-trip costs in GBP and trip-pricing-budget table in sync
+alwaysApply: true
+---
+
 # Keep dive-trip costs in sync (GBP + summary table)
 
 Whenever the user provides **trip cost** information (flights, hotels, diving packages, course fees, transfers, rental, food, insurance, etc.) for a **dive-focused trip**:
@@ -14,3 +19,4 @@ Whenever the user provides **trip cost** information (flights, hotels, diving pa
 
 Additionally, when the user finishes logging a dive-focused trip (or is doing Q&A on the last dives of that trip), proactively ask for any missing cost categories (transfers, equipment rental, insurance, food, extras) so the `costs.md` and the summary table stay current.
 
+Booking emails: follow **`dive-trip-booking-comms`** rule first (store thread in `booking-comms.md`), then update costs here.
