@@ -26,6 +26,7 @@ The point isn’t just “logging dives” — it’s turning dives into a **rep
 - **Reflect**: I add what felt easy/hard and what I want to improve.
 - **Debrief (optional)**: I do a short Q&A-style debrief on one dive to pull out lessons and next steps.
 - **Update readiness**: as new evidence accumulates, the “bucket‑list readiness” view stays current.
+- **Get nudged**: once a month, I get a friendly dive-buddy check-in that celebrates progress and suggests one small next move.
 
 ---
 
