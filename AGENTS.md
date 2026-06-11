@@ -86,3 +86,14 @@ In particular:
 - Treat you as owning **mask + snorkel only** unless `equipment-inventory.md` says otherwise.
 - Assume you **rent** BCD/regulator/fins/wetsuit/weights/dive computer by default.
 - If you’re considering a dive computer purchase, prefer recommendations that match your likely Nitrox needs (Nitrox/EAN compatibility) and ask you for your budget range before “hard” assumptions.
+
+## Cursor Cloud specific instructions
+
+This repo is a **markdown knowledge base**, not a server/web app. There is **no build step, no test suite, and no linter configured**. "Running the application" means running the helper scripts below; everything else is content the agent edits via the skills/rules.
+
+**Executable code (the only runnable parts):**
+- `scripts/ingest-dive-photos.py` — Python 3, depends on `exifread` (installed by the startup `install` hook). Run from repo root: `python3 scripts/ingest-dive-photos.py <source_folder> --dry-run` first. Notes: it copies (never deletes) media into `dives/[trip]/photos/dive-[#]-[site]/`, matching by EXIF `DateTimeOriginal` (falls back to file mtime if EXIF/`exifread` is missing). It infers dive boundaries from `divinglog.md` dates plus a per-day time-gap (`--gap-minutes`, default 45); extra windows with no matching dive go to `photos/unassigned/`. Use `--project-root <tmp>` (with a copy of `divinglog.md`) to test without writing into the real `dives/` tree.
+- `scripts/send-telegram.sh` — optional; used only by the monthly milestone automation. Needs `TELEGRAM_BOT_TOKEN` + `TELEGRAM_CHAT_ID` secrets and outbound network to `api.telegram.org`. Degrades gracefully (clear message, non-fatal) when secrets/network are absent, so it does not block development.
+- `scripts/commit-agents-md.sh` — local Git snapshot of `AGENTS.md`; run after editing this file (see the `version-agents-md` rule).
+
+**Startup `install` hook** (`.cursor/environment.json`): installs `exifread` (so photo ingest works) and writes `.cursor/telegram.env` from the Telegram secrets when they are set (that file is gitignored). The hook is safe to re-run and does not fail when Telegram secrets are missing.
