@@ -1,0 +1,39 @@
+---
+description: Telegram bot credentials for monthly milestone digest — local Mac setup and new-machine handoff
+alwaysApply: true
+---
+
+# Telegram (monthly dive digest)
+
+## Where secrets live
+
+- **Local Mac:** `~/.config/diving-telegram.env` — `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHAT_ID`
+- **Cloud automations:** same keys as Cursor **Runtime Secrets** (dashboard → Cloud Agents → Secrets)
+- **Never commit** tokens or chat IDs. `.cursor/telegram.env` is gitignored (cloud install hook only).
+
+## New computer / fresh clone
+
+**Do not redo BotFather** — reuse the same bot token and chat ID.
+
+1. `mkdir -p ~/.config`
+2. Create `~/.config/diving-telegram.env` with two lines (no quotes):
+   - `TELEGRAM_BOT_TOKEN=...`
+   - `TELEGRAM_CHAT_ID=...`
+3. `chmod 600 ~/.config/diving-telegram.env`
+4. In Telegram app: open the bot chat → tap **Start** (once per account)
+5. Test: `bash scripts/send-telegram.sh --file .cursor/automations/last-milestone-nudge.txt`
+
+Or run: `bash scripts/setup-telegram-local.sh` (creates file + opens TextEdit).
+
+Full steps: `.cursor/automations/README.md` → **Telegram setup**.
+
+## Sending
+
+- Script: `scripts/send-telegram.sh` (reads home env, then `.cursor/telegram.env`)
+- Monthly digest draft: `.cursor/automations/last-milestone-nudge.txt`
+- Validate before send: `bash scripts/validate-milestone-nudge.sh`
+- Format rules: `.cursor/automations/diving-milestone-check.prompt.md`
+
+## This machine
+
+Local `~/.config/diving-telegram.env` was configured **2026-06-23** (user confirmed setup complete).

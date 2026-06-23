@@ -14,17 +14,47 @@
 
 1. Create a bot with **@BotFather**; revoke the token if you ever pasted it in chat.
 2. Get your **chat ID** (e.g. **@getmyid_bot** in the Telegram app).
-3. Create `~/.config/diving-telegram.env` (not in this repo):
+3. In the Telegram app, open your bot → tap **Start** (required once).
+4. **Local Mac** — credentials are **not in Git**. From the project root:
 
    ```bash
+   bash scripts/setup-telegram-local.sh
+   ```
+
+   TextEdit opens `~/.config/diving-telegram.env`. Replace the two placeholder lines with your real token and chat ID, save (**Cmd+S**), close TextEdit.
+
+   **Manual equivalent:**
+
+   ```bash
+   mkdir -p ~/.config
+   touch ~/.config/diving-telegram.env
+   chmod 600 ~/.config/diving-telegram.env
+   open -e ~/.config/diving-telegram.env
+   ```
+
+   File contents (no quotes, no spaces around `=`):
+
+   ```
    TELEGRAM_BOT_TOKEN=your_token_here
    TELEGRAM_CHAT_ID=your_id_here
    ```
 
-4. **Also add secrets for cloud runs** (automations run on Cursor’s cloud VM, not your Mac):
+5. **Test locally:**
+
+   ```bash
+   bash scripts/send-telegram.sh --file .cursor/automations/last-milestone-nudge.txt
+   ```
+
+   Expect: `Sent to Telegram.` and the message on your phone.
+
+6. **Also add secrets for cloud runs** (automations run on Cursor’s cloud VM, not your Mac):
    - Open [cursor.com/dashboard](https://cursor.com/dashboard) → **Cloud Agents** → **Secrets**
    - Add `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` (Runtime Secret)
-5. **Test** with **Run now** on the automation (cloud can reach Telegram even when your home network blocks `api.telegram.org`).
+7. **Test cloud:** **Run now** on the automation (cloud can reach Telegram even when your home network blocks `api.telegram.org`).
+
+#### New computer / after `git clone`
+
+You **do not** need a new bot or chat ID — copy the **same** token and ID into `~/.config/diving-telegram.env` on the new Mac (steps 4–5). Cursor dashboard secrets follow your **Cursor account**, not the machine.
 
 ### Setup in Cursor
 
