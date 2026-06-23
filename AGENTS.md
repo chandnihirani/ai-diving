@@ -86,3 +86,16 @@ In particular:
 - Treat you as owning **mask + snorkel only** unless `equipment-inventory.md` says otherwise.
 - Assume you **rent** BCD/regulator/fins/wetsuit/weights/dive computer by default.
 - If you’re considering a dive computer purchase, prefer recommendations that match your likely Nitrox needs (Nitrox/EAN compatibility) and ask you for your budget range before “hard” assumptions.
+
+## Cursor Cloud specific instructions
+
+This is a **content/data repository**, not a conventional software app. The "product" is the markdown dive log plus a few helper scripts. There is **no build step, no lint config, and no automated test suite** — do not look for `npm run build`, a test runner, or a linter; none exist.
+
+The only executable code:
+- **`scripts/ingest-dive-photos.py`** — the one real application. Python 3 (system `python3`, currently 3.12). Run from the repo root; see the `dive-photo-ingest` skill for usage. Its only third-party dependency is **`exifread`** (installed by the update script). Without `exifread` the script still runs but falls back to file mtime and prints a warning instead of reading EXIF capture times.
+- **`scripts/commit-agents-md.sh`** — git snapshot of `AGENTS.md`; run after editing `AGENTS.md` (per `.cursor/rules/version-agents-md.mdc`). Local git only; nothing is pushed by this script.
+- **`scripts/send-telegram.sh`** — needs `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` (from `~/.config/diving-telegram.env` or Secrets) **and** outbound network to `api.telegram.org`; it will exit non-zero without them.
+
+Non-obvious gotchas:
+- `config/dive-photo-source.txt` holds a **macOS Google Drive path that does not exist in the cloud VM**. When running/testing the ingest script here, pass an explicit source folder argument instead of relying on the default path.
+- The ingest script matches photos to dives by **date** (from `divinglog.md`) and a **time-gap rule** for multiple same-day dives. To test, create sample image files whose mtime/EXIF dates match dive dates in `divinglog.md` (e.g. three windows on `27 Mar 2024` map to dives 1–3). Use `--dry-run` to preview assignments; note that a real run already copies files, so a later `--dry-run` will skip them as existing duplicates.
