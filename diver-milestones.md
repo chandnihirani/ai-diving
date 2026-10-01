@@ -1,6 +1,6 @@
 ## Diver milestones & proactive reminders
 
-Last updated: 2026-06-04
+Last updated: 2026-10-01
 
 **Purpose:** Machine-readable triggers the agent evaluates after logging dives, finishing trip Q&A, updating certifications, marking bucket-list destinations done, or on the **monthly Cursor Automation** (see `.cursor/automations/`).
 
@@ -14,7 +14,8 @@ Last updated: 2026-06-04
 
 | Date | Milestone ID | Dive count | Outcome |
 |------|----------------|------------|---------|
-| *(none yet)* | | | |
+| 2026-10-01 | nitrox_overdue | 15 | Fired — Nitrox is past the July 2026 target and not confirmed obtained. |
+| 2026-10-01 | dives_rust_6m | 15 | Fired — newest logged dive is 2026-03-15, over 6 months ago. |
 
 ---
 
@@ -122,8 +123,12 @@ milestones:
 reminder_state:
   rescue_diver_at_40: {}
   bucket_list_stale_9m: {}
-  nitrox_overdue: {}
-  dives_rust_6m: {}
+  nitrox_overdue:
+    last_fired: 2026-10-01
+    last_dive_count_at_fire: 15
+  dives_rust_6m:
+    last_fired: 2026-10-01
+    last_dive_count_at_fire: 15
   twentyfive_dive_gate: {}
   liveaboard_prep_first: {}
   computer_rental_40: {}
